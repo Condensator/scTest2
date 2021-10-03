@@ -5,7 +5,25 @@
         "ProjectId": "16e8c58a-8a13-482f-a509-8a65ea916241",
         "ProjectName": "Test19",
         "DBTypeName": "SQL Server",
-        "Environments": null,
+        "Environments": [
+          {
+            "EnvironmentId": "d29a45e4-3221-4acf-807b-8251313c0466",
+            "EnvironmentName": "Dev_Env_1",
+            "EnvironmentType": "DEV",
+            "Databases": [
+              {
+                "DatabaseId": "77553164-2cba-4e9e-bb13-4e85ed7b73f4",
+                "DatabaseAliasName": "WWI",
+                "DatabaseConnectionDetails": null,
+                "RepositoryDetails": {
+                  "$type": "DOP.SourceControl.ExternalSourceControl.Git.Models.GitRepositoryDetails, DOP.SourceControl.ExternalSourceControl.Git",
+                  "RemoteRepositoryURL": "https://github.com/Condensator/wwi.git",
+                  "BranchName": "master"
+                }
+              }
+            ]
+          }
+        ],
         "SourceControlPathType": 0,
         "Configuration": {
           "BuildMigrationScriptAutomatically": true,
@@ -21,7 +39,24 @@
       "UserData": [
         {
           "UserName": "Condensator",
-          "DatabasesData": []
+          "DatabasesData": [
+            {
+              "DatabaseId": "77553164-2cba-4e9e-bb13-4e85ed7b73f4",
+              "DatabaseAliasName": "WWI",
+              "DatabaseConnectionDetails": {
+                "DBTypeName": "SQL Server",
+                "Host": "LAPTOP-FUME900I",
+                "AuthenticationType": 1,
+                "Username": "sa",
+                "Password": "qrE4JauJd0gM7CQ0IggpFA==",
+                "DatabaseName": "WideWorldImporters"
+              },
+              "RepositoryCredentials": {
+                "UserName": "Condensator",
+                "Password": "H6Gte/7nRWsdJD2JJdlSUYyjMmmls20UatW2yTiPZ+53Yyq6oHEURULCnlYxnXEP"
+              }
+            }
+          ]
         }
       ]
     }
