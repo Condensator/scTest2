@@ -14,14 +14,7 @@
               {
                 "DatabaseId": "77553164-2cba-4e9e-bb13-4e85ed7b73f4",
                 "DatabaseAliasName": "WWI",
-                "DatabaseConnectionDetails": {
-                  "DBTypeName": "SQL Server",
-                  "Host": "LAPTOP-FUME900I",
-                  "AuthenticationType": 1,
-                  "Username": "sa",
-                  "Password": "123456",
-                  "DatabaseName": "WideWorldImporters"
-                },
+                "DatabaseConnectionDetails": null,
                 "RepositoryDetails": {
                   "$type": "DOP.SourceControl.ExternalSourceControl.Git.Models.GitRepositoryDetails, DOP.SourceControl.ExternalSourceControl.Git",
                   "RemoteRepositoryURL": "https://github.com/Condensator/wwi.git",
@@ -61,6 +54,27 @@
               "RepositoryCredentials": {
                 "UserName": "Condensator",
                 "Password": "H6Gte/7nRWsdJD2JJdlSUYyjMmmls20UatW2yTiPZ+53Yyq6oHEURULCnlYxnXEP"
+              }
+            }
+          ]
+        },
+        {
+          "UserName": "jsmith19870",
+          "DatabasesData": [
+            {
+              "DatabaseId": "77553164-2cba-4e9e-bb13-4e85ed7b73f4",
+              "DatabaseAliasName": "WWI",
+              "DatabaseConnectionDetails": {
+                "DBTypeName": "SQL Server",
+                "Host": "LAPTOP-FUME900I",
+                "AuthenticationType": 1,
+                "Username": "sa",
+                "Password": "qrE4JauJd0gM7CQ0IggpFA==",
+                "DatabaseName": "WideWorldImporters"
+              },
+              "RepositoryCredentials": {
+                "UserName": "jsmith19870",
+                "Password": "Z7Z0xNUPw009qb4+cY0rjzTeC/jx/etNk/0bYy7n/JAzakVkqP+/pE5yslqjbIKn"
               }
             }
           ]
@@ -121,6 +135,20 @@
               "RepositoryCredentials": {
                 "UserName": "Condensator",
                 "Password": "H6Gte/7nRWsdJD2JJdlSUYyjMmmls20UatW2yTiPZ+53Yyq6oHEURULCnlYxnXEP"
+              }
+            }
+          ]
+        },
+        {
+          "UserName": "jsmith19870",
+          "DatabasesData": [
+            {
+              "DatabaseId": "a4d3c7c3-88a1-4a58-b235-f18ab7d6e94e",
+              "DatabaseAliasName": "AWDW2019",
+              "DatabaseConnectionDetails": null,
+              "RepositoryCredentials": {
+                "UserName": "jsmith19870",
+                "Password": "Z7Z0xNUPw009qb4+cY0rjzTeC/jx/etNk/0bYy7n/JAzakVkqP+/pE5yslqjbIKn"
               }
             }
           ]
