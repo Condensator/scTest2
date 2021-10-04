@@ -72,7 +72,32 @@
         "ProjectId": "7b7e7813-5156-42d3-9751-5c93567ad112",
         "ProjectName": "Test20",
         "DBTypeName": "SQL Server",
-        "Environments": null,
+        "Environments": [
+          {
+            "EnvironmentId": "011688b1-7074-4907-b236-ebbaf5fee9d9",
+            "EnvironmentName": "Dev_Env_1",
+            "EnvironmentType": "DEV",
+            "Databases": [
+              {
+                "DatabaseId": "a4d3c7c3-88a1-4a58-b235-f18ab7d6e94e",
+                "DatabaseAliasName": "AWDW2019",
+                "DatabaseConnectionDetails": {
+                  "DBTypeName": "SQL Server",
+                  "Host": "LAPTOP-FUME900I",
+                  "AuthenticationType": 1,
+                  "Username": "sa",
+                  "Password": "qrE4JauJd0gM7CQ0IggpFA==",
+                  "DatabaseName": "AdventureWorksDW2019"
+                },
+                "RepositoryDetails": {
+                  "$type": "DOP.SourceControl.ExternalSourceControl.Git.Models.GitRepositoryDetails, DOP.SourceControl.ExternalSourceControl.Git",
+                  "RemoteRepositoryURL": "https://github.com/Condensator/shredarcitecture.git",
+                  "BranchName": "master"
+                }
+              }
+            ]
+          }
+        ],
         "SourceControlPathType": 0,
         "Configuration": {
           "BuildMigrationScriptAutomatically": true,
@@ -88,7 +113,17 @@
       "UserData": [
         {
           "UserName": "Condensator",
-          "DatabasesData": []
+          "DatabasesData": [
+            {
+              "DatabaseId": "a4d3c7c3-88a1-4a58-b235-f18ab7d6e94e",
+              "DatabaseAliasName": "AWDW2019",
+              "DatabaseConnectionDetails": null,
+              "RepositoryCredentials": {
+                "UserName": "Condensator",
+                "Password": "H6Gte/7nRWsdJD2JJdlSUYyjMmmls20UatW2yTiPZ+53Yyq6oHEURULCnlYxnXEP"
+              }
+            }
+          ]
         }
       ]
     }
