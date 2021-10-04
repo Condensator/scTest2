@@ -14,7 +14,14 @@
               {
                 "DatabaseId": "77553164-2cba-4e9e-bb13-4e85ed7b73f4",
                 "DatabaseAliasName": "WWI",
-                "DatabaseConnectionDetails": null,
+                "DatabaseConnectionDetails": {
+                  "DBTypeName": "SQL Server",
+                  "Host": "LAPTOP-FUME900I",
+                  "AuthenticationType": 1,
+                  "Username": "sa",
+                  "Password": "123456",
+                  "DatabaseName": "WideWorldImporters"
+                },
                 "RepositoryDetails": {
                   "$type": "DOP.SourceControl.ExternalSourceControl.Git.Models.GitRepositoryDetails, DOP.SourceControl.ExternalSourceControl.Git",
                   "RemoteRepositoryURL": "https://github.com/Condensator/wwi.git",
