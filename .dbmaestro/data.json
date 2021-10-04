@@ -14,7 +14,14 @@
               {
                 "DatabaseId": "77553164-2cba-4e9e-bb13-4e85ed7b73f4",
                 "DatabaseAliasName": "WWI",
-                "DatabaseConnectionDetails": null,
+                "DatabaseConnectionDetails": {
+                  "DBTypeName": "SQL Server",
+                  "Host": "LAPTOP-FUME900I",
+                  "AuthenticationType": 1,
+                  "Username": "sa",
+                  "Password": "123456",
+                  "DatabaseName": "WideWorldImporters"
+                },
                 "RepositoryDetails": {
                   "$type": "DOP.SourceControl.ExternalSourceControl.Git.Models.GitRepositoryDetails, DOP.SourceControl.ExternalSourceControl.Git",
                   "RemoteRepositoryURL": "https://github.com/Condensator/wwi.git",
@@ -48,7 +55,7 @@
                 "Host": "LAPTOP-FUME900I",
                 "AuthenticationType": 1,
                 "Username": "sa",
-                "Password": "qrE4JauJd0gM7CQ0IggpFA==",
+                "Password": "123456",
                 "DatabaseName": "WideWorldImporters"
               },
               "RepositoryCredentials": {
@@ -57,6 +64,31 @@
               }
             }
           ]
+        }
+      ]
+    },
+    {
+      "GlobalData": {
+        "ProjectId": "30a9eaf0-4b26-4411-a717-8b43a27436be",
+        "ProjectName": "Test20",
+        "DBTypeName": "SQL Server",
+        "Environments": null,
+        "SourceControlPathType": 0,
+        "Configuration": {
+          "BuildMigrationScriptAutomatically": true,
+          "BuildMethod": 1,
+          "NumberOfRevisionsInViewHistory": 10,
+          "NumberOfTagsInBuildOptions": 10,
+          "BuildDeploymentScriptOnPush": false,
+          "PreventCommitObjectWithConflict": false
+        },
+        "ProjectArchitecture": 1,
+        "LocalDirectory": "C:\\SCA\\Tests\\Test20"
+      },
+      "UserData": [
+        {
+          "UserName": "Condensator",
+          "DatabasesData": []
         }
       ]
     }
