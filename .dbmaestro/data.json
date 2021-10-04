@@ -66,6 +66,31 @@
           ]
         }
       ]
+    },
+    {
+      "GlobalData": {
+        "ProjectId": "5be8ba05-91ed-4e90-a3f7-20f60b016245",
+        "ProjectName": "Test20",
+        "DBTypeName": "SQL Server",
+        "Environments": null,
+        "SourceControlPathType": 0,
+        "Configuration": {
+          "BuildMigrationScriptAutomatically": true,
+          "BuildMethod": 1,
+          "NumberOfRevisionsInViewHistory": 10,
+          "NumberOfTagsInBuildOptions": 10,
+          "BuildDeploymentScriptOnPush": false,
+          "PreventCommitObjectWithConflict": false
+        },
+        "ProjectArchitecture": 1,
+        "LocalDirectory": "C:\\SCA\\Tests\\Test20"
+      },
+      "UserData": [
+        {
+          "UserName": "Condensator",
+          "DatabasesData": []
+        }
+      ]
     }
   ],
   "GlobalConfigurations": null
