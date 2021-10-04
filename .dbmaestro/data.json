@@ -77,7 +77,7 @@
                 "AuthenticationType": 1,
                 "Username": "sa",
                 "Password": "qrE4JauJd0gM7CQ0IggpFA==",
-                "DatabaseName": "WideWorldImporters"
+                "DatabaseName": "WideWorldImporters2"
               },
               "RepositoryCredentials": {
                 "UserName": "jsmith19870",
@@ -159,6 +159,31 @@
               }
             }
           ]
+        }
+      ]
+    },
+    {
+      "GlobalData": {
+        "ProjectId": "ee62a085-15ab-438d-afe7-9ea0b7a5f3df",
+        "ProjectName": "Test21",
+        "DBTypeName": "SQL Server",
+        "Environments": null,
+        "SourceControlPathType": 0,
+        "Configuration": {
+          "BuildMigrationScriptAutomatically": true,
+          "BuildMethod": 1,
+          "NumberOfRevisionsInViewHistory": 10,
+          "NumberOfTagsInBuildOptions": 10,
+          "BuildDeploymentScriptOnPush": false,
+          "PreventCommitObjectWithConflict": false
+        },
+        "ProjectArchitecture": 1,
+        "LocalDirectory": "C:\\SCA\\Tests\\Test21"
+      },
+      "UserData": [
+        {
+          "UserName": "Condensator",
+          "DatabasesData": []
         }
       ]
     }
