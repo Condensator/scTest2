@@ -64,27 +64,31 @@
               }
             }
           ]
+        }
+      ]
+    },
+    {
+      "GlobalData": {
+        "ProjectId": "7b7e7813-5156-42d3-9751-5c93567ad112",
+        "ProjectName": "Test20",
+        "DBTypeName": "SQL Server",
+        "Environments": null,
+        "SourceControlPathType": 0,
+        "Configuration": {
+          "BuildMigrationScriptAutomatically": true,
+          "BuildMethod": 1,
+          "NumberOfRevisionsInViewHistory": 10,
+          "NumberOfTagsInBuildOptions": 10,
+          "BuildDeploymentScriptOnPush": false,
+          "PreventCommitObjectWithConflict": false
         },
+        "ProjectArchitecture": 1,
+        "LocalDirectory": "C:\\SCA\\Tests\\Test20"
+      },
+      "UserData": [
         {
-          "UserName": "jsmith19870",
-          "DatabasesData": [
-            {
-              "DatabaseId": "77553164-2cba-4e9e-bb13-4e85ed7b73f4",
-              "DatabaseAliasName": "WWI",
-              "DatabaseConnectionDetails": {
-                "DBTypeName": "SQL Server",
-                "Host": "LAPTOP-FUME900I",
-                "AuthenticationType": 1,
-                "Username": "sa",
-                "Password": "qrE4JauJd0gM7CQ0IggpFA==",
-                "DatabaseName": "WorldWideImporters2"
-              },
-              "RepositoryCredentials": {
-                "UserName": "jsmith19870",
-                "Password": "Z7Z0xNUPw009qb4+cY0rjzTeC/jx/etNk/0bYy7n/JAzakVkqP+/pE5yslqjbIKn"
-              }
-            }
-          ]
+          "UserName": "Condensator",
+          "DatabasesData": []
         }
       ]
     }
