@@ -172,18 +172,7 @@
             "EnvironmentId": "138ae2ea-bc9c-4f3c-9457-912be48ccca3",
             "EnvironmentName": "Dev_Env_1",
             "EnvironmentType": "DEV",
-            "Databases": [
-              {
-                "DatabaseId": "28bf1ed1-2819-4c5f-8675-29a43d4b4227",
-                "DatabaseAliasName": "BigDB",
-                "DatabaseConnectionDetails": null,
-                "RepositoryDetails": {
-                  "$type": "DOP.SourceControl.ExternalSourceControl.Git.Models.GitRepositoryDetails, DOP.SourceControl.ExternalSourceControl.Git",
-                  "RemoteRepositoryURL": "https://github.com/Condensator/BigDB.git",
-                  "BranchName": "master"
-                }
-              }
-            ]
+            "Databases": []
           }
         ],
         "SourceControlPathType": 0,
@@ -201,24 +190,7 @@
       "UserData": [
         {
           "UserName": "jsmith19870",
-          "DatabasesData": [
-            {
-              "DatabaseId": "28bf1ed1-2819-4c5f-8675-29a43d4b4227",
-              "DatabaseAliasName": "BigDB",
-              "DatabaseConnectionDetails": {
-                "DBTypeName": "SQL Server",
-                "Host": "LAPTOP-FUME900I",
-                "AuthenticationType": 1,
-                "Username": "sa",
-                "Password": "qrE4JauJd0gM7CQ0IggpFA==",
-                "DatabaseName": "abigdb1"
-              },
-              "RepositoryCredentials": {
-                "UserName": "jsmith19870",
-                "Password": "Z7Z0xNUPw009qb4+cY0rjzTeC/jx/etNk/0bYy7n/JAzakVkqP+/pE5yslqjbIKn"
-              }
-            }
-          ]
+          "DatabasesData": []
         }
       ]
     }
