@@ -161,6 +161,66 @@
           ]
         }
       ]
+    },
+    {
+      "GlobalData": {
+        "ProjectId": "3c2d7c46-c692-46b8-93bd-1aefc5b57b10",
+        "ProjectName": "Test21",
+        "DBTypeName": "SQL Server",
+        "Environments": [
+          {
+            "EnvironmentId": "138ae2ea-bc9c-4f3c-9457-912be48ccca3",
+            "EnvironmentName": "Dev_Env_1",
+            "EnvironmentType": "DEV",
+            "Databases": [
+              {
+                "DatabaseId": "85492bbb-3be8-4559-8bcd-8ee863cf0a40",
+                "DatabaseAliasName": "BigDB",
+                "DatabaseConnectionDetails": null,
+                "RepositoryDetails": {
+                  "$type": "DOP.SourceControl.ExternalSourceControl.Git.Models.GitRepositoryDetails, DOP.SourceControl.ExternalSourceControl.Git",
+                  "RemoteRepositoryURL": "https://github.com/Condensator/BigDB.git",
+                  "BranchName": "master"
+                }
+              }
+            ]
+          }
+        ],
+        "SourceControlPathType": 0,
+        "Configuration": {
+          "BuildMigrationScriptAutomatically": true,
+          "BuildMethod": 1,
+          "NumberOfRevisionsInViewHistory": 10,
+          "NumberOfTagsInBuildOptions": 10,
+          "BuildDeploymentScriptOnPush": false,
+          "PreventCommitObjectWithConflict": false
+        },
+        "ProjectArchitecture": 0,
+        "LocalDirectory": "C:\\SCA\\Tests\\Test21"
+      },
+      "UserData": [
+        {
+          "UserName": "jsmith19870",
+          "DatabasesData": [
+            {
+              "DatabaseId": "85492bbb-3be8-4559-8bcd-8ee863cf0a40",
+              "DatabaseAliasName": "BigDB",
+              "DatabaseConnectionDetails": {
+                "DBTypeName": "SQL Server",
+                "Host": "LAPTOP-FUME900I",
+                "AuthenticationType": 1,
+                "Username": "sa",
+                "Password": "qrE4JauJd0gM7CQ0IggpFA==",
+                "DatabaseName": "abigdb1"
+              },
+              "RepositoryCredentials": {
+                "UserName": "jsmith19870",
+                "Password": "Z7Z0xNUPw009qb4+cY0rjzTeC/jx/etNk/0bYy7n/JAzakVkqP+/pE5yslqjbIKn"
+              }
+            }
+          ]
+        }
+      ]
     }
   ],
   "GlobalConfigurations": null
