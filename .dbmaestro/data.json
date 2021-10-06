@@ -161,6 +161,31 @@
           ]
         }
       ]
+    },
+    {
+      "GlobalData": {
+        "ProjectId": "3c2d7c46-c692-46b8-93bd-1aefc5b57b10",
+        "ProjectName": "Test21",
+        "DBTypeName": "SQL Server",
+        "Environments": null,
+        "SourceControlPathType": 0,
+        "Configuration": {
+          "BuildMigrationScriptAutomatically": true,
+          "BuildMethod": 1,
+          "NumberOfRevisionsInViewHistory": 10,
+          "NumberOfTagsInBuildOptions": 10,
+          "BuildDeploymentScriptOnPush": false,
+          "PreventCommitObjectWithConflict": false
+        },
+        "ProjectArchitecture": 0,
+        "LocalDirectory": "C:\\SCA\\Tests\\Test21"
+      },
+      "UserData": [
+        {
+          "UserName": "jsmith19870",
+          "DatabasesData": []
+        }
+      ]
     }
   ],
   "GlobalConfigurations": null
