@@ -242,6 +242,66 @@
           ]
         }
       ]
+    },
+    {
+      "GlobalData": {
+        "ProjectId": "4b58437b-501a-45cf-9016-cc3708a006db",
+        "ProjectName": "Test22",
+        "DBTypeName": "SQL Server",
+        "Environments": [
+          {
+            "EnvironmentId": "986ae128-fc36-45fc-8ecf-b8aa666d5085",
+            "EnvironmentName": "Dev_Env_1",
+            "EnvironmentType": "DEV",
+            "Databases": [
+              {
+                "DatabaseId": "b68bfaed-05e5-458d-8ac9-8ab252327bb4",
+                "DatabaseAliasName": "AWu1",
+                "DatabaseConnectionDetails": null,
+                "RepositoryDetails": {
+                  "$type": "DOP.SourceControl.ExternalSourceControl.Git.Models.GitRepositoryDetails, DOP.SourceControl.ExternalSourceControl.Git",
+                  "RemoteRepositoryURL": "https://github.com/Condensator/DemoMachine.git",
+                  "BranchName": "master"
+                }
+              }
+            ]
+          }
+        ],
+        "SourceControlPathType": 0,
+        "Configuration": {
+          "BuildMigrationScriptAutomatically": true,
+          "BuildMethod": 1,
+          "NumberOfRevisionsInViewHistory": 10,
+          "NumberOfTagsInBuildOptions": 10,
+          "BuildDeploymentScriptOnPush": false,
+          "PreventCommitObjectWithConflict": false
+        },
+        "ProjectArchitecture": 0,
+        "LocalDirectory": "C:\\SourceControlDemo\\Test22"
+      },
+      "UserData": [
+        {
+          "UserName": "Condensator",
+          "DatabasesData": [
+            {
+              "DatabaseId": "b68bfaed-05e5-458d-8ac9-8ab252327bb4",
+              "DatabaseAliasName": "AWu1",
+              "DatabaseConnectionDetails": {
+                "DBTypeName": "SQL Server",
+                "Host": "SOURCE-CONTROL-",
+                "AuthenticationType": 1,
+                "Username": "sd",
+                "Password": "qrE4JauJd0gM7CQ0IggpFA==",
+                "DatabaseName": "AdventureWorks_user1"
+              },
+              "RepositoryCredentials": {
+                "UserName": "Condensator",
+                "Password": "H6Gte/7nRWsdJD2JJdlSUYyjMmmls20UatW2yTiPZ+53Yyq6oHEURULCnlYxnXEP"
+              }
+            }
+          ]
+        }
+      ]
     }
   ],
   "GlobalConfigurations": null
