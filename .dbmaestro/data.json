@@ -219,6 +219,27 @@
               }
             }
           ]
+        },
+        {
+          "UserName": "Condensator",
+          "DatabasesData": [
+            {
+              "DatabaseId": "85492bbb-3be8-4559-8bcd-8ee863cf0a40",
+              "DatabaseAliasName": "BigDB",
+              "DatabaseConnectionDetails": {
+                "DBTypeName": "SQL Server",
+                "Host": "LAPTOP-FUME900I",
+                "AuthenticationType": 1,
+                "Username": "sa",
+                "Password": "qrE4JauJd0gM7CQ0IggpFA==",
+                "DatabaseName": "abigdb2"
+              },
+              "RepositoryCredentials": {
+                "UserName": "Condensator",
+                "Password": "H6Gte/7nRWsdJD2JJdlSUYyjMmmls20UatW2yTiPZ+53Yyq6oHEURULCnlYxnXEP"
+              }
+            }
+          ]
         }
       ]
     }
