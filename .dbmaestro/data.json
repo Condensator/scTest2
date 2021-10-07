@@ -20,7 +20,7 @@
                   "AuthenticationType": 1,
                   "Username": "sa",
                   "Password": "123456",
-                  "DatabaseName": "WorldWideImporters2"
+                  "DatabaseName": "WideWorldImporters"
                 },
                 "RepositoryDetails": {
                   "$type": "DOP.SourceControl.ExternalSourceControl.Git.Models.GitRepositoryDetails, DOP.SourceControl.ExternalSourceControl.Git",
@@ -55,7 +55,7 @@
                 "Host": "LAPTOP-FUME900I",
                 "AuthenticationType": 1,
                 "Username": "sa",
-                "Password": "qrE4JauJd0gM7CQ0IggpFA==",
+                "Password": "123456",
                 "DatabaseName": "WideWorldImporters"
               },
               "RepositoryCredentials": {
