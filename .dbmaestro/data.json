@@ -20,7 +20,7 @@
                   "AuthenticationType": 1,
                   "Username": "sa",
                   "Password": "123456",
-                  "DatabaseName": "WorldWideImporters2"
+                  "DatabaseName": "WideWorldImporters"
                 },
                 "RepositoryDetails": {
                   "$type": "DOP.SourceControl.ExternalSourceControl.Git.Models.GitRepositoryDetails, DOP.SourceControl.ExternalSourceControl.Git",
@@ -55,7 +55,7 @@
                 "Host": "LAPTOP-FUME900I",
                 "AuthenticationType": 1,
                 "Username": "sa",
-                "Password": "qrE4JauJd0gM7CQ0IggpFA==",
+                "Password": "123456",
                 "DatabaseName": "WideWorldImporters"
               },
               "RepositoryCredentials": {
@@ -176,7 +176,14 @@
               {
                 "DatabaseId": "85492bbb-3be8-4559-8bcd-8ee863cf0a40",
                 "DatabaseAliasName": "BigDB",
-                "DatabaseConnectionDetails": null,
+                "DatabaseConnectionDetails": {
+                  "DBTypeName": "SQL Server",
+                  "Host": "LAPTOP-FUME900I",
+                  "AuthenticationType": 1,
+                  "Username": "sa",
+                  "Password": "123456",
+                  "DatabaseName": "abigdb2"
+                },
                 "RepositoryDetails": {
                   "$type": "DOP.SourceControl.ExternalSourceControl.Git.Models.GitRepositoryDetails, DOP.SourceControl.ExternalSourceControl.Git",
                   "RemoteRepositoryURL": "https://github.com/Condensator/BigDB.git",
@@ -231,7 +238,7 @@
                 "Host": "LAPTOP-FUME900I",
                 "AuthenticationType": 1,
                 "Username": "sa",
-                "Password": "qrE4JauJd0gM7CQ0IggpFA==",
+                "Password": "123456",
                 "DatabaseName": "abigdb2"
               },
               "RepositoryCredentials": {
