@@ -255,7 +255,25 @@
         "ProjectId": "b4ccf242-32aa-4946-b091-7f79795fec79",
         "ProjectName": "Test23",
         "DBTypeName": "SQL Server",
-        "Environments": null,
+        "Environments": [
+          {
+            "EnvironmentId": "8ec58e31-0ed6-4d50-9f62-bcf6ad0f1e06",
+            "EnvironmentName": "Dev_Env_1",
+            "EnvironmentType": "DEV",
+            "Databases": [
+              {
+                "DatabaseId": "272015f0-931a-42c6-a447-0e922fc2e3b1",
+                "DatabaseAliasName": "ComplexLinks",
+                "DatabaseConnectionDetails": null,
+                "RepositoryDetails": {
+                  "$type": "DOP.SourceControl.ExternalSourceControl.Git.Models.GitRepositoryDetails, DOP.SourceControl.ExternalSourceControl.Git",
+                  "RemoteRepositoryURL": "https://github.com/Condensator/demo2.git",
+                  "BranchName": "master"
+                }
+              }
+            ]
+          }
+        ],
         "SourceControlPathType": 0,
         "Configuration": {
           "BuildMigrationScriptAutomatically": true,
@@ -271,7 +289,24 @@
       "UserData": [
         {
           "UserName": "Condensator",
-          "DatabasesData": []
+          "DatabasesData": [
+            {
+              "DatabaseId": "272015f0-931a-42c6-a447-0e922fc2e3b1",
+              "DatabaseAliasName": "ComplexLinks",
+              "DatabaseConnectionDetails": {
+                "DBTypeName": "SQL Server",
+                "Host": "LAPTOP-FUME900I",
+                "AuthenticationType": 1,
+                "Username": "sa",
+                "Password": "qrE4JauJd0gM7CQ0IggpFA==",
+                "DatabaseName": "ComplexLinks"
+              },
+              "RepositoryCredentials": {
+                "UserName": "Condensator",
+                "Password": "H6Gte/7nRWsdJD2JJdlSUYyjMmmls20UatW2yTiPZ+53Yyq6oHEURULCnlYxnXEP"
+              }
+            }
+          ]
         }
       ]
     }
