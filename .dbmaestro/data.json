@@ -169,14 +169,7 @@
               {
                 "DatabaseId": "85492bbb-3be8-4559-8bcd-8ee863cf0a40",
                 "DatabaseAliasName": "BigDB",
-                "DatabaseConnectionDetails": {
-                  "DBTypeName": "SQL Server",
-                  "Host": "LAPTOP-FUME900I",
-                  "AuthenticationType": 1,
-                  "Username": "sa",
-                  "Password": "123456",
-                  "DatabaseName": "abigdb2"
-                },
+                "DatabaseConnectionDetails": null,
                 "RepositoryDetails": {
                   "$type": "DOP.SourceControl.ExternalSourceControl.Git.Models.GitRepositoryDetails, DOP.SourceControl.ExternalSourceControl.Git",
                   "RemoteRepositoryURL": "https://github.com/Condensator/BigDB.git",
@@ -231,7 +224,7 @@
                 "Host": "LAPTOP-FUME900I",
                 "AuthenticationType": 1,
                 "Username": "sa",
-                "Password": "123456",
+                "Password": "qrE4JauJd0gM7CQ0IggpFA==",
                 "DatabaseName": "abigdb2"
               },
               "RepositoryCredentials": {
