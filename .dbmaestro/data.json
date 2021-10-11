@@ -264,14 +264,7 @@
               {
                 "DatabaseId": "272015f0-931a-42c6-a447-0e922fc2e3b1",
                 "DatabaseAliasName": "ComplexLinks",
-                "DatabaseConnectionDetails": {
-                  "DBTypeName": "SQL Server",
-                  "Host": "LAPTOP-FUME900I",
-                  "AuthenticationType": 1,
-                  "Username": "sa",
-                  "Password": "123456",
-                  "DatabaseName": "ComplexLinks"
-                },
+                "DatabaseConnectionDetails": null,
                 "RepositoryDetails": {
                   "$type": "DOP.SourceControl.ExternalSourceControl.Git.Models.GitRepositoryDetails, DOP.SourceControl.ExternalSourceControl.Git",
                   "RemoteRepositoryURL": "https://github.com/Condensator/demo2.git",
@@ -311,6 +304,27 @@
               "RepositoryCredentials": {
                 "UserName": "Condensator",
                 "Password": "H6Gte/7nRWsdJD2JJdlSUYyjMmmls20UatW2yTiPZ+53Yyq6oHEURULCnlYxnXEP"
+              }
+            }
+          ]
+        },
+        {
+          "UserName": "jsmith19870",
+          "DatabasesData": [
+            {
+              "DatabaseId": "272015f0-931a-42c6-a447-0e922fc2e3b1",
+              "DatabaseAliasName": "ComplexLinks",
+              "DatabaseConnectionDetails": {
+                "DBTypeName": "SQL Server",
+                "Host": "LAPTOP-FUME900I",
+                "AuthenticationType": 1,
+                "Username": "sa",
+                "Password": "qrE4JauJd0gM7CQ0IggpFA==",
+                "DatabaseName": "ComplexLinks"
+              },
+              "RepositoryCredentials": {
+                "UserName": "jsmith19870",
+                "Password": "Z7Z0xNUPw009qb4+cY0rjzTeC/jx/etNk/0bYy7n/JAzakVkqP+/pE5yslqjbIKn"
               }
             }
           ]
