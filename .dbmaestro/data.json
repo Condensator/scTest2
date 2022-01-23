@@ -18,7 +18,8 @@
                 "RepositoryDetails": {
                   "$type": "DOP.SourceControl.ExternalSourceControl.Git.Models.GitRepositoryDetails, DOP.SourceControl.ExternalSourceControl.Git",
                   "RemoteRepositoryURL": "https://github.com/Condensator/wwi.git",
-                  "BranchName": "master"
+                  "RemoteBranchName": "master",
+                  "LocalBranchName": "master"
                 }
               }
             ]
@@ -43,14 +44,20 @@
             {
               "DatabaseId": "77553164-2cba-4e9e-bb13-4e85ed7b73f4",
               "DatabaseAliasName": "WWI",
-              "DatabaseConnectionDetails": {
-                "DBTypeName": "SQL Server",
-                "Host": "LAPTOP-FUME900I",
-                "AuthenticationType": 1,
-                "Username": "sa",
-                "Password": "qrE4JauJd0gM7CQ0IggpFA==",
-                "DatabaseName": "WideWorldImporters"
-              },
+              "DatabaseConnectionDetails": null,
+              "BranchesDatabaseConnectionDetails": [
+                {
+                  "BranchName": "master",
+                  "DatabaseConnectionDetails": {
+                    "DBTypeName": "SQL Server",
+                    "Host": "LAPTOP-FUME900I",
+                    "AuthenticationType": 1,
+                    "Username": "sa",
+                    "Password": "qrE4JauJd0gM7CQ0IggpFA==",
+                    "DatabaseName": "WideWorldImporters"
+                  }
+                }
+              ],
               "RepositoryCredentials": {
                 "UserName": "Condensator",
                 "Password": "H6Gte/7nRWsdJD2JJdlSUYyjMmmls20UatW2yTiPZ+53Yyq6oHEURULCnlYxnXEP"
@@ -64,14 +71,20 @@
             {
               "DatabaseId": "77553164-2cba-4e9e-bb13-4e85ed7b73f4",
               "DatabaseAliasName": "WWI",
-              "DatabaseConnectionDetails": {
-                "DBTypeName": "SQL Server",
-                "Host": "LAPTOP-FUME900I",
-                "AuthenticationType": 1,
-                "Username": "sa",
-                "Password": "qrE4JauJd0gM7CQ0IggpFA==",
-                "DatabaseName": "WorldWideImporters2"
-              },
+              "DatabaseConnectionDetails": null,
+              "BranchesDatabaseConnectionDetails": [
+                {
+                  "BranchName": "master",
+                  "DatabaseConnectionDetails": {
+                    "DBTypeName": "SQL Server",
+                    "Host": "LAPTOP-FUME900I",
+                    "AuthenticationType": 1,
+                    "Username": "sa",
+                    "Password": "qrE4JauJd0gM7CQ0IggpFA==",
+                    "DatabaseName": "WorldWideImporters2"
+                  }
+                }
+              ],
               "RepositoryCredentials": {
                 "UserName": "jsmith19870",
                 "Password": "Z7Z0xNUPw009qb4+cY0rjzTeC/jx/etNk/0bYy7n/JAzakVkqP+/pE5yslqjbIKn"
@@ -95,18 +108,12 @@
               {
                 "DatabaseId": "a4d3c7c3-88a1-4a58-b235-f18ab7d6e94e",
                 "DatabaseAliasName": "AWDW2019",
-                "DatabaseConnectionDetails": {
-                  "DBTypeName": "SQL Server",
-                  "Host": "LAPTOP-FUME900I",
-                  "AuthenticationType": 1,
-                  "Username": "sa",
-                  "Password": "qrE4JauJd0gM7CQ0IggpFA==",
-                  "DatabaseName": "AdventureWorksDW2019"
-                },
+                "DatabaseConnectionDetails": null,
                 "RepositoryDetails": {
                   "$type": "DOP.SourceControl.ExternalSourceControl.Git.Models.GitRepositoryDetails, DOP.SourceControl.ExternalSourceControl.Git",
                   "RemoteRepositoryURL": "https://github.com/Condensator/shredarcitecture.git",
-                  "BranchName": "master"
+                  "RemoteBranchName": "master",
+                  "LocalBranchName": "master"
                 }
               }
             ]
@@ -132,6 +139,7 @@
               "DatabaseId": "a4d3c7c3-88a1-4a58-b235-f18ab7d6e94e",
               "DatabaseAliasName": "AWDW2019",
               "DatabaseConnectionDetails": null,
+              "BranchesDatabaseConnectionDetails": null,
               "RepositoryCredentials": {
                 "UserName": "Condensator",
                 "Password": "H6Gte/7nRWsdJD2JJdlSUYyjMmmls20UatW2yTiPZ+53Yyq6oHEURULCnlYxnXEP"
@@ -146,10 +154,35 @@
               "DatabaseId": "a4d3c7c3-88a1-4a58-b235-f18ab7d6e94e",
               "DatabaseAliasName": "AWDW2019",
               "DatabaseConnectionDetails": null,
+              "BranchesDatabaseConnectionDetails": null,
               "RepositoryCredentials": {
                 "UserName": "jsmith19870",
                 "Password": "Z7Z0xNUPw009qb4+cY0rjzTeC/jx/etNk/0bYy7n/JAzakVkqP+/pE5yslqjbIKn"
               }
+            }
+          ]
+        },
+        {
+          "UserName": "#ALL",
+          "DatabasesData": [
+            {
+              "DatabaseId": "a4d3c7c3-88a1-4a58-b235-f18ab7d6e94e",
+              "DatabaseAliasName": "AWDW2019",
+              "DatabaseConnectionDetails": null,
+              "BranchesDatabaseConnectionDetails": [
+                {
+                  "BranchName": "master",
+                  "DatabaseConnectionDetails": {
+                    "DBTypeName": "SQL Server",
+                    "Host": "LAPTOP-FUME900I",
+                    "AuthenticationType": 1,
+                    "Username": "sa",
+                    "Password": "qrE4JauJd0gM7CQ0IggpFA==",
+                    "DatabaseName": "AdventureWorksDW2019"
+                  }
+                }
+              ],
+              "RepositoryCredentials": null
             }
           ]
         }
@@ -173,7 +206,8 @@
                 "RepositoryDetails": {
                   "$type": "DOP.SourceControl.ExternalSourceControl.Git.Models.GitRepositoryDetails, DOP.SourceControl.ExternalSourceControl.Git",
                   "RemoteRepositoryURL": "https://github.com/Condensator/BigDB.git",
-                  "BranchName": "master"
+                  "RemoteBranchName": "master",
+                  "LocalBranchName": "master"
                 }
               }
             ]
@@ -198,14 +232,20 @@
             {
               "DatabaseId": "85492bbb-3be8-4559-8bcd-8ee863cf0a40",
               "DatabaseAliasName": "BigDB",
-              "DatabaseConnectionDetails": {
-                "DBTypeName": "SQL Server",
-                "Host": "LAPTOP-FUME900I",
-                "AuthenticationType": 1,
-                "Username": "sa",
-                "Password": "qrE4JauJd0gM7CQ0IggpFA==",
-                "DatabaseName": "abigdb1"
-              },
+              "DatabaseConnectionDetails": null,
+              "BranchesDatabaseConnectionDetails": [
+                {
+                  "BranchName": "master",
+                  "DatabaseConnectionDetails": {
+                    "DBTypeName": "SQL Server",
+                    "Host": "LAPTOP-FUME900I",
+                    "AuthenticationType": 1,
+                    "Username": "sa",
+                    "Password": "qrE4JauJd0gM7CQ0IggpFA==",
+                    "DatabaseName": "abigdb1"
+                  }
+                }
+              ],
               "RepositoryCredentials": {
                 "UserName": "jsmith19870",
                 "Password": "Z7Z0xNUPw009qb4+cY0rjzTeC/jx/etNk/0bYy7n/JAzakVkqP+/pE5yslqjbIKn"
@@ -219,14 +259,20 @@
             {
               "DatabaseId": "85492bbb-3be8-4559-8bcd-8ee863cf0a40",
               "DatabaseAliasName": "BigDB",
-              "DatabaseConnectionDetails": {
-                "DBTypeName": "SQL Server",
-                "Host": "LAPTOP-FUME900I",
-                "AuthenticationType": 1,
-                "Username": "sa",
-                "Password": "qrE4JauJd0gM7CQ0IggpFA==",
-                "DatabaseName": "abigdb2"
-              },
+              "DatabaseConnectionDetails": null,
+              "BranchesDatabaseConnectionDetails": [
+                {
+                  "BranchName": "master",
+                  "DatabaseConnectionDetails": {
+                    "DBTypeName": "SQL Server",
+                    "Host": "LAPTOP-FUME900I",
+                    "AuthenticationType": 1,
+                    "Username": "sa",
+                    "Password": "qrE4JauJd0gM7CQ0IggpFA==",
+                    "DatabaseName": "abigdb2"
+                  }
+                }
+              ],
               "RepositoryCredentials": {
                 "UserName": "Condensator",
                 "Password": "H6Gte/7nRWsdJD2JJdlSUYyjMmmls20UatW2yTiPZ+53Yyq6oHEURULCnlYxnXEP"
@@ -254,7 +300,8 @@
                 "RepositoryDetails": {
                   "$type": "DOP.SourceControl.ExternalSourceControl.Git.Models.GitRepositoryDetails, DOP.SourceControl.ExternalSourceControl.Git",
                   "RemoteRepositoryURL": "https://github.com/Condensator/demo2.git",
-                  "BranchName": "master"
+                  "RemoteBranchName": "master",
+                  "LocalBranchName": "master"
                 }
               }
             ]
@@ -279,14 +326,20 @@
             {
               "DatabaseId": "272015f0-931a-42c6-a447-0e922fc2e3b1",
               "DatabaseAliasName": "ComplexLinks",
-              "DatabaseConnectionDetails": {
-                "DBTypeName": "SQL Server",
-                "Host": "LAPTOP-FUME900I",
-                "AuthenticationType": 1,
-                "Username": "sa",
-                "Password": "qrE4JauJd0gM7CQ0IggpFA==",
-                "DatabaseName": "ComplexLinks"
-              },
+              "DatabaseConnectionDetails": null,
+              "BranchesDatabaseConnectionDetails": [
+                {
+                  "BranchName": "master",
+                  "DatabaseConnectionDetails": {
+                    "DBTypeName": "SQL Server",
+                    "Host": "LAPTOP-FUME900I",
+                    "AuthenticationType": 1,
+                    "Username": "sa",
+                    "Password": "qrE4JauJd0gM7CQ0IggpFA==",
+                    "DatabaseName": "ComplexLinks"
+                  }
+                }
+              ],
               "RepositoryCredentials": {
                 "UserName": "Condensator",
                 "Password": "H6Gte/7nRWsdJD2JJdlSUYyjMmmls20UatW2yTiPZ+53Yyq6oHEURULCnlYxnXEP"
@@ -300,14 +353,20 @@
             {
               "DatabaseId": "272015f0-931a-42c6-a447-0e922fc2e3b1",
               "DatabaseAliasName": "ComplexLinks",
-              "DatabaseConnectionDetails": {
-                "DBTypeName": "SQL Server",
-                "Host": "LAPTOP-FUME900I",
-                "AuthenticationType": 1,
-                "Username": "sa",
-                "Password": "qrE4JauJd0gM7CQ0IggpFA==",
-                "DatabaseName": "ComplexLinks2"
-              },
+              "DatabaseConnectionDetails": null,
+              "BranchesDatabaseConnectionDetails": [
+                {
+                  "BranchName": "master",
+                  "DatabaseConnectionDetails": {
+                    "DBTypeName": "SQL Server",
+                    "Host": "LAPTOP-FUME900I",
+                    "AuthenticationType": 1,
+                    "Username": "sa",
+                    "Password": "qrE4JauJd0gM7CQ0IggpFA==",
+                    "DatabaseName": "ComplexLinks2"
+                  }
+                }
+              ],
               "RepositoryCredentials": {
                 "UserName": "jsmith19870",
                 "Password": "Z7Z0xNUPw009qb4+cY0rjzTeC/jx/etNk/0bYy7n/JAzakVkqP+/pE5yslqjbIKn"
