@@ -227,33 +227,6 @@
       },
       "UserData": [
         {
-          "UserName": "jsmith19870",
-          "DatabasesData": [
-            {
-              "DatabaseId": "85492bbb-3be8-4559-8bcd-8ee863cf0a40",
-              "DatabaseAliasName": "BigDB",
-              "DatabaseConnectionDetails": null,
-              "BranchesDatabaseConnectionDetails": [
-                {
-                  "BranchName": "master",
-                  "DatabaseConnectionDetails": {
-                    "DBTypeName": "SQL Server",
-                    "Host": "LAPTOP-FUME900I",
-                    "AuthenticationType": 1,
-                    "Username": "sa",
-                    "Password": "qrE4JauJd0gM7CQ0IggpFA==",
-                    "DatabaseName": "abigdb1"
-                  }
-                }
-              ],
-              "RepositoryCredentials": {
-                "UserName": "jsmith19870",
-                "Password": "Z7Z0xNUPw009qb4+cY0rjzTeC/jx/etNk/0bYy7n/JAzakVkqP+/pE5yslqjbIKn"
-              }
-            }
-          ]
-        },
-        {
           "UserName": "Condensator",
           "DatabasesData": [
             {
