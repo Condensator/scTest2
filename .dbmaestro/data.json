@@ -381,14 +381,7 @@
               {
                 "DatabaseId": "6ea5f489-ee99-4604-a4b0-0640e2c79518",
                 "DatabaseAliasName": "SmallDB",
-                "DatabaseConnectionDetails": {
-                  "DBTypeName": "SQL Server",
-                  "Host": "localhost",
-                  "AuthenticationType": 1,
-                  "Username": "sa",
-                  "Password": "123456",
-                  "DatabaseName": "dev2"
-                },
+                "DatabaseConnectionDetails": null,
                 "RepositoryDetails": {
                   "$type": "DOP.SourceControl.ExternalSourceControl.Git.Models.GitRepositoryDetails, DOP.SourceControl.ExternalSourceControl.Git",
                   "RemoteRepositoryURL": "https://github.com/Condensator/dbsmalltest1.git",
@@ -460,7 +453,7 @@
                     "Host": "localhost",
                     "AuthenticationType": 1,
                     "Username": "sa",
-                    "Password": "123456",
+                    "Password": "qrE4JauJd0gM7CQ0IggpFA==",
                     "DatabaseName": "dev2"
                   }
                 }
