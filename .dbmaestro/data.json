@@ -354,7 +354,26 @@
         "ProjectId": "e46e0c5f-6eda-4eac-af46-f7bf444765cb",
         "ProjectName": "BigDatabase2",
         "DBTypeName": "SQL Server",
-        "Environments": null,
+        "Environments": [
+          {
+            "EnvironmentId": "366a8007-772e-441a-b560-86ebf7017031",
+            "EnvironmentName": "Dev_Env_1",
+            "EnvironmentType": "DEV",
+            "Databases": [
+              {
+                "DatabaseId": "454cc421-5256-43bf-bd63-efd5c40550b5",
+                "DatabaseAliasName": "Odessa",
+                "DatabaseConnectionDetails": null,
+                "RepositoryDetails": {
+                  "$type": "DOP.SourceControl.ExternalSourceControl.Git.Models.GitRepositoryDetails, DOP.SourceControl.ExternalSourceControl.Git",
+                  "RemoteRepositoryURL": "https://github.com/Condensator/BigDB.git",
+                  "RemoteBranchName": "master",
+                  "LocalBranchName": "master"
+                }
+              }
+            ]
+          }
+        ],
         "SourceControlPathType": 0,
         "Configuration": {
           "BuildMigrationScriptAutomatically": true,
@@ -370,7 +389,42 @@
       "UserData": [
         {
           "UserName": "Condensator",
-          "DatabasesData": []
+          "DatabasesData": [
+            {
+              "DatabaseId": "454cc421-5256-43bf-bd63-efd5c40550b5",
+              "DatabaseAliasName": "Odessa",
+              "DatabaseConnectionDetails": null,
+              "BranchesDatabaseConnectionDetails": null,
+              "RepositoryCredentials": {
+                "UserName": "Condensator",
+                "Password": "MFcDM7Zh7ti+vguF7mEst3Ue73xoVKLS8xbVI6LNz0qLFOf5ETA49o/4iinEaIAl"
+              }
+            }
+          ]
+        },
+        {
+          "UserName": "#ALL",
+          "DatabasesData": [
+            {
+              "DatabaseId": "454cc421-5256-43bf-bd63-efd5c40550b5",
+              "DatabaseAliasName": "Odessa",
+              "DatabaseConnectionDetails": null,
+              "BranchesDatabaseConnectionDetails": [
+                {
+                  "BranchName": "master",
+                  "DatabaseConnectionDetails": {
+                    "DBTypeName": "SQL Server",
+                    "Host": "localhost",
+                    "AuthenticationType": 1,
+                    "Username": "sa",
+                    "Password": "qrE4JauJd0gM7CQ0IggpFA==",
+                    "DatabaseName": "ODESSAPDC01"
+                  }
+                }
+              ],
+              "RepositoryCredentials": null
+            }
+          ]
         }
       ]
     }
