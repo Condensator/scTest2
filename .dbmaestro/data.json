@@ -369,7 +369,7 @@
                   "AuthenticationType": 1,
                   "Username": "sa",
                   "Password": "123456",
-                  "DatabaseName": "ODESSAPDC01"
+                  "DatabaseName": "ODESSAPDC02"
                 },
                 "RepositoryDetails": {
                   "$type": "DOP.SourceControl.ExternalSourceControl.Git.Models.GitRepositoryDetails, DOP.SourceControl.ExternalSourceControl.Git",
