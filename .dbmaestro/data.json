@@ -446,8 +446,8 @@
   ],
   "GlobalConfigurations":  {
      "Performance": {
-          "BuildEngineTimeout": 120000000, -- This is the timeout value for the build in ms
-          "ScriptExecutionTimeout": 300000 -- This is the timeout value for executing a script ms
+          "BuildEngineTimeout": 36000000,
+          "ScriptExecutionTimeout": 300000
      }
 }
 
