@@ -510,6 +510,17 @@
                     "Password": "qrE4JauJd0gM7CQ0IggpFA==",
                     "DatabaseName": "AAAAAAASC11"
                   }
+                },
+                {
+                  "BranchName": "fourth",
+                  "DatabaseConnectionDetails": {
+                    "DBTypeName": "SQL Server",
+                    "Host": "localhost",
+                    "AuthenticationType": 1,
+                    "Username": "sa",
+                    "Password": "qrE4JauJd0gM7CQ0IggpFA==",
+                    "DatabaseName": "AAAAASC12"
+                  }
                 }
               ],
               "RepositoryCredentials": {
