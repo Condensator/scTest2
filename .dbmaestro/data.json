@@ -444,11 +444,15 @@
       ]
     }
   ],
-  "GlobalConfigurations":  {
-     "Performance": {
-          "BuildEngineTimeout": 36000000,
-          "ScriptExecutionTimeout": 300000
-     }
-}
-
+  "GlobalConfigurations": {
+    "TempDirectory": null,
+    "ExternalBuildEnginePath": null,
+    "Performance": {
+      "ObjectParallelCount": 5,
+      "QueryParallelCount": 5,
+      "QueryRowParallelCount": 5,
+      "BuildEngineTimeout": 36000000,
+      "ScriptExecutionTimeout": 300000
+    }
+  }
 }
