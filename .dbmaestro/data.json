@@ -589,6 +589,18 @@
                     "userName": "RS2",
                     "Password": "qrE4JauJd0gM7CQ0IggpFA=="
                   }
+                },
+                {
+                  "BranchName": "newbranch",
+                  "DatabaseConnectionDetails": {
+                    "DBTypeName": "Oracle",
+                    "host": "localhost",
+                    "port": "1521",
+                    "identifierType": "SERVICE_NAME",
+                    "identifier": "orclpdb",
+                    "userName": "RS3",
+                    "Password": "qrE4JauJd0gM7CQ0IggpFA=="
+                  }
                 }
               ],
               "RepositoryCredentials": {
