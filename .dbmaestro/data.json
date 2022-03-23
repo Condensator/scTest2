@@ -28,11 +28,11 @@
         "SourceControlPathType": 0,
         "Configuration": {
           "BuildMigrationScriptAutomatically": true,
-          "BuildMethod": 1,
+          "DBConfiguration": {},
           "NumberOfRevisionsInViewHistory": 10,
           "NumberOfTagsInBuildOptions": 10,
-          "BuildDeploymentScriptOnPush": false,
-          "PreventCommitObjectWithConflict": false
+          "PreventCommitObjectWithConflict": false,
+          "UseCache": null
         },
         "ProjectArchitecture": 0,
         "LocalDirectory": "C:\\SCA\\Tests\\Test19"
@@ -50,11 +50,11 @@
                   "BranchName": "master",
                   "DatabaseConnectionDetails": {
                     "DBTypeName": "SQL Server",
-                    "Host": "LAPTOP-FUME900I",
-                    "AuthenticationType": 1,
-                    "Username": "sa",
-                    "Password": "qrE4JauJd0gM7CQ0IggpFA==",
-                    "DatabaseName": "WideWorldImporters"
+                    "authType": "SqlAuthentication",
+                    "userName": "sa",
+                    "dbName": "WideWorldImporters",
+                    "host": "LAPTOP-FUME900I",
+                    "Password": "qrE4JauJd0gM7CQ0IggpFA=="
                   }
                 }
               ],
@@ -77,11 +77,11 @@
                   "BranchName": "master",
                   "DatabaseConnectionDetails": {
                     "DBTypeName": "SQL Server",
-                    "Host": "LAPTOP-FUME900I",
-                    "AuthenticationType": 1,
-                    "Username": "sa",
-                    "Password": "qrE4JauJd0gM7CQ0IggpFA==",
-                    "DatabaseName": "WorldWideImporters2"
+                    "authType": "SqlAuthentication",
+                    "userName": "sa",
+                    "dbName": "WorldWideImporters2",
+                    "host": "LAPTOP-FUME900I",
+                    "Password": "qrE4JauJd0gM7CQ0IggpFA=="
                   }
                 }
               ],
@@ -122,11 +122,11 @@
         "SourceControlPathType": 0,
         "Configuration": {
           "BuildMigrationScriptAutomatically": true,
-          "BuildMethod": 1,
+          "DBConfiguration": {},
           "NumberOfRevisionsInViewHistory": 10,
           "NumberOfTagsInBuildOptions": 10,
-          "BuildDeploymentScriptOnPush": false,
-          "PreventCommitObjectWithConflict": false
+          "PreventCommitObjectWithConflict": false,
+          "UseCache": null
         },
         "ProjectArchitecture": 1,
         "LocalDirectory": "C:\\SCA\\Tests\\Test20"
@@ -174,11 +174,11 @@
                   "BranchName": "master",
                   "DatabaseConnectionDetails": {
                     "DBTypeName": "SQL Server",
-                    "Host": "LAPTOP-FUME900I",
-                    "AuthenticationType": 1,
-                    "Username": "sa",
-                    "Password": "qrE4JauJd0gM7CQ0IggpFA==",
-                    "DatabaseName": "AdventureWorksDW2019"
+                    "authType": "SqlAuthentication",
+                    "userName": "sa",
+                    "dbName": "AdventureWorksDW2019",
+                    "host": "LAPTOP-FUME900I",
+                    "Password": "qrE4JauJd0gM7CQ0IggpFA=="
                   }
                 }
               ],
@@ -216,11 +216,11 @@
         "SourceControlPathType": 0,
         "Configuration": {
           "BuildMigrationScriptAutomatically": true,
-          "BuildMethod": 1,
+          "DBConfiguration": {},
           "NumberOfRevisionsInViewHistory": 10,
           "NumberOfTagsInBuildOptions": 10,
-          "BuildDeploymentScriptOnPush": false,
-          "PreventCommitObjectWithConflict": false
+          "PreventCommitObjectWithConflict": false,
+          "UseCache": null
         },
         "ProjectArchitecture": 0,
         "LocalDirectory": "C:\\SCA\\Tests\\Test21"
@@ -238,11 +238,11 @@
                   "BranchName": "master",
                   "DatabaseConnectionDetails": {
                     "DBTypeName": "SQL Server",
-                    "Host": "LAPTOP-FUME900I",
-                    "AuthenticationType": 1,
-                    "Username": "sa",
-                    "Password": "qrE4JauJd0gM7CQ0IggpFA==",
-                    "DatabaseName": "abigdb2"
+                    "authType": "SqlAuthentication",
+                    "userName": "sa",
+                    "dbName": "abigdb2",
+                    "host": "LAPTOP-FUME900I",
+                    "Password": "qrE4JauJd0gM7CQ0IggpFA=="
                   }
                 }
               ],
@@ -283,11 +283,11 @@
         "SourceControlPathType": 0,
         "Configuration": {
           "BuildMigrationScriptAutomatically": true,
-          "BuildMethod": 1,
+          "DBConfiguration": {},
           "NumberOfRevisionsInViewHistory": 10,
           "NumberOfTagsInBuildOptions": 10,
-          "BuildDeploymentScriptOnPush": false,
-          "PreventCommitObjectWithConflict": false
+          "PreventCommitObjectWithConflict": false,
+          "UseCache": null
         },
         "ProjectArchitecture": 0,
         "LocalDirectory": "C:\\Users\\Oleksandr Kosenko\\Documents\\Test23"
@@ -305,11 +305,11 @@
                   "BranchName": "master",
                   "DatabaseConnectionDetails": {
                     "DBTypeName": "SQL Server",
-                    "Host": "LAPTOP-FUME900I",
-                    "AuthenticationType": 1,
-                    "Username": "sa",
-                    "Password": "qrE4JauJd0gM7CQ0IggpFA==",
-                    "DatabaseName": "ComplexLinks"
+                    "authType": "SqlAuthentication",
+                    "userName": "sa",
+                    "dbName": "ComplexLinks",
+                    "host": "LAPTOP-FUME900I",
+                    "Password": "qrE4JauJd0gM7CQ0IggpFA=="
                   }
                 }
               ],
@@ -332,11 +332,11 @@
                   "BranchName": "master",
                   "DatabaseConnectionDetails": {
                     "DBTypeName": "SQL Server",
-                    "Host": "LAPTOP-FUME900I",
-                    "AuthenticationType": 1,
-                    "Username": "sa",
-                    "Password": "qrE4JauJd0gM7CQ0IggpFA==",
-                    "DatabaseName": "ComplexLinks2"
+                    "authType": "SqlAuthentication",
+                    "userName": "sa",
+                    "dbName": "ComplexLinks2",
+                    "host": "LAPTOP-FUME900I",
+                    "Password": "qrE4JauJd0gM7CQ0IggpFA=="
                   }
                 }
               ],
@@ -377,11 +377,11 @@
         "SourceControlPathType": 0,
         "Configuration": {
           "BuildMigrationScriptAutomatically": true,
-          "BuildMethod": 0,
+          "DBConfiguration": {},
           "NumberOfRevisionsInViewHistory": 10,
           "NumberOfTagsInBuildOptions": 10,
-          "BuildDeploymentScriptOnPush": false,
-          "PreventCommitObjectWithConflict": false
+          "PreventCommitObjectWithConflict": false,
+          "UseCache": null
         },
         "ProjectArchitecture": 0,
         "LocalDirectory": "C:\\Users\\Oleksandr Kosenko\\Documents\\projectName"
@@ -399,11 +399,11 @@
                   "BranchName": "master",
                   "DatabaseConnectionDetails": {
                     "DBTypeName": "SQL Server",
-                    "Host": "localhost",
-                    "AuthenticationType": 1,
-                    "Username": "sa",
-                    "Password": "qrE4JauJd0gM7CQ0IggpFA==",
-                    "DatabaseName": "ODESSAPDC01"
+                    "authType": "SqlAuthentication",
+                    "userName": "sa",
+                    "dbName": "ODESSAPDC01",
+                    "host": "localhost",
+                    "Password": "qrE4JauJd0gM7CQ0IggpFA=="
                   }
                 }
               ],
@@ -426,11 +426,11 @@
                   "BranchName": "master",
                   "DatabaseConnectionDetails": {
                     "DBTypeName": "SQL Server",
-                    "Host": "localhost",
-                    "AuthenticationType": 1,
-                    "Username": "sa",
-                    "Password": "qrE4JauJd0gM7CQ0IggpFA==",
-                    "DatabaseName": "ODESSAPDC02"
+                    "authType": "SqlAuthentication",
+                    "userName": "sa",
+                    "dbName": "ODESSAPDC02",
+                    "host": "localhost",
+                    "Password": "qrE4JauJd0gM7CQ0IggpFA=="
                   }
                 }
               ],
@@ -471,11 +471,11 @@
         "SourceControlPathType": 0,
         "Configuration": {
           "BuildMigrationScriptAutomatically": true,
-          "BuildMethod": 0,
+          "DBConfiguration": {},
           "NumberOfRevisionsInViewHistory": 10,
           "NumberOfTagsInBuildOptions": 10,
-          "BuildDeploymentScriptOnPush": false,
-          "PreventCommitObjectWithConflict": false
+          "PreventCommitObjectWithConflict": false,
+          "UseCache": null
         },
         "ProjectArchitecture": 0,
         "LocalDirectory": "C:\\Users\\Oleksandr Kosenko\\Documents\\projectName"
@@ -493,33 +493,33 @@
                   "BranchName": "master",
                   "DatabaseConnectionDetails": {
                     "DBTypeName": "SQL Server",
-                    "Host": "localhost",
-                    "AuthenticationType": 1,
-                    "Username": "sa",
-                    "Password": "qrE4JauJd0gM7CQ0IggpFA==",
-                    "DatabaseName": "AAAAAASC1"
+                    "authType": "SqlAuthentication",
+                    "userName": "sa",
+                    "dbName": "AAAAAASC1",
+                    "host": "localhost",
+                    "Password": "qrE4JauJd0gM7CQ0IggpFA=="
                   }
                 },
                 {
                   "BranchName": "third",
                   "DatabaseConnectionDetails": {
                     "DBTypeName": "SQL Server",
-                    "Host": "localhost",
-                    "AuthenticationType": 1,
-                    "Username": "sa",
-                    "Password": "qrE4JauJd0gM7CQ0IggpFA==",
-                    "DatabaseName": "AAAASC4"
+                    "authType": "SqlAuthentication",
+                    "userName": "sa",
+                    "dbName": "AAAASC4",
+                    "host": "localhost",
+                    "Password": "qrE4JauJd0gM7CQ0IggpFA=="
                   }
                 },
                 {
                   "BranchName": "fourth",
                   "DatabaseConnectionDetails": {
                     "DBTypeName": "SQL Server",
-                    "Host": "localhost",
-                    "AuthenticationType": 1,
-                    "Username": "sa",
-                    "Password": "qrE4JauJd0gM7CQ0IggpFA==",
-                    "DatabaseName": "AAAAASC12"
+                    "authType": "SqlAuthentication",
+                    "userName": "sa",
+                    "dbName": "AAAAASC12",
+                    "host": "localhost",
+                    "Password": "qrE4JauJd0gM7CQ0IggpFA=="
                   }
                 }
               ],
@@ -531,6 +531,31 @@
           ]
         }
       ]
+    },
+    {
+      "GlobalData": {
+        "ProjectId": "5ec9c711-7dd3-4c6f-b278-483df8485cfc",
+        "ProjectName": "Oracle1",
+        "DBTypeName": "Oracle",
+        "Environments": null,
+        "SourceControlPathType": 0,
+        "Configuration": {
+          "BuildMigrationScriptAutomatically": true,
+          "DBConfiguration": {},
+          "NumberOfRevisionsInViewHistory": 10,
+          "NumberOfTagsInBuildOptions": 10,
+          "PreventCommitObjectWithConflict": false,
+          "UseCache": null
+        },
+        "ProjectArchitecture": 0,
+        "LocalDirectory": "C:\\Users\\Oleksandr Kosenko\\Documents\\Щкфсду1"
+      },
+      "UserData": [
+        {
+          "UserName": "Condensator",
+          "DatabasesData": []
+        }
+      ]
     }
   ],
   "GlobalConfigurations": {
@@ -540,6 +565,8 @@
       "ObjectParallelCount": 5,
       "QueryParallelCount": 5,
       "QueryRowParallelCount": 5,
+      "GitCompareGroupCount": 5,
+      "GitCompareParallelCount": 5,
       "BuildEngineTimeout": 36000000,
       "ScriptExecutionTimeout": 300000
     }
