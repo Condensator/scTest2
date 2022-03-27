@@ -728,19 +728,7 @@
             "EnvironmentId": "5ee3910d-c074-4e95-ab94-d6f38a82d64f",
             "EnvironmentName": "Dev_Env_1",
             "EnvironmentType": "DEV",
-            "Databases": [
-              {
-                "DatabaseId": "779fa52c-bcd7-4031-8dc8-8872a2a897e0",
-                "DatabaseAliasName": "DEV2",
-                "DatabaseConnectionDetails": null,
-                "RepositoryDetails": {
-                  "$type": "DOP.SourceControl.ExternalSourceControl.Git.Models.GitRepositoryDetails, DOP.SourceControl.ExternalSourceControl.Git",
-                  "RemoteRepositoryURL": "https://github.com/Condensator/obigdb1.git",
-                  "RemoteBranchName": "master",
-                  "LocalBranchName": "master"
-                }
-              }
-            ]
+            "Databases": []
           }
         ],
         "SourceControlPathType": 0,
@@ -758,31 +746,7 @@
       "UserData": [
         {
           "UserName": "jsmith19870",
-          "DatabasesData": [
-            {
-              "DatabaseId": "779fa52c-bcd7-4031-8dc8-8872a2a897e0",
-              "DatabaseAliasName": "DEV2",
-              "DatabaseConnectionDetails": null,
-              "BranchesDatabaseConnectionDetails": [
-                {
-                  "BranchName": "master",
-                  "DatabaseConnectionDetails": {
-                    "DBTypeName": "Oracle",
-                    "host": "localhost",
-                    "port": "1521",
-                    "identifierType": "SERVICE_NAME",
-                    "identifier": "orclpdb",
-                    "userName": "DEV2",
-                    "Password": "qrE4JauJd0gM7CQ0IggpFA=="
-                  }
-                }
-              ],
-              "RepositoryCredentials": {
-                "UserName": "jsmith19870",
-                "Password": "+d8N89r3z9mgG4lfBVTFrHB/XXmYmWX/a0+BWBS5uPbCUzOsMKWpXY5qvGZbMD8n"
-              }
-            }
-          ]
+          "DatabasesData": []
         }
       ]
     }
