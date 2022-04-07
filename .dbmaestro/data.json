@@ -459,6 +459,17 @@
                   "RemoteBranchName": "master",
                   "LocalBranchName": "master"
                 }
+              },
+              {
+                "DatabaseId": "e8f71331-9237-4bde-8f3d-ca4df55b9576",
+                "DatabaseAliasName": "OracleDB3",
+                "DatabaseConnectionDetails": null,
+                "RepositoryDetails": {
+                  "$type": "DOP.SourceControl.ExternalSourceControl.Git.Models.GitRepositoryDetails, DOP.SourceControl.ExternalSourceControl.Git",
+                  "RemoteRepositoryURL": "https://github.com/Condensator/demo3.git",
+                  "RemoteBranchName": "master",
+                  "LocalBranchName": "master"
+                }
               }
             ]
           }
@@ -517,6 +528,29 @@
                     "identifierType": "SERVICE_NAME",
                     "identifier": "orclpdb",
                     "userName": "RS4",
+                    "Password": "qrE4JauJd0gM7CQ0IggpFA=="
+                  }
+                }
+              ],
+              "RepositoryCredentials": {
+                "UserName": "Condensator",
+                "Password": "TeQ3BbDHIVmdMV69YLXPvbQFlkDGOBn3HJJvYNDUZIKJ0DiCwBbpQjdzQvIUoADq"
+              }
+            },
+            {
+              "DatabaseId": "e8f71331-9237-4bde-8f3d-ca4df55b9576",
+              "DatabaseAliasName": "OracleDB3",
+              "DatabaseConnectionDetails": null,
+              "BranchesDatabaseConnectionDetails": [
+                {
+                  "BranchName": "master",
+                  "DatabaseConnectionDetails": {
+                    "DBTypeName": "Oracle",
+                    "host": "localhost",
+                    "port": "1521",
+                    "identifierType": "SERVICE_NAME",
+                    "identifier": "orclpdb",
+                    "userName": "RS5",
                     "Password": "qrE4JauJd0gM7CQ0IggpFA=="
                   }
                 }
@@ -703,7 +737,8 @@
       "GitCompareGroupCount": 5,
       "GitCompareParallelCount": 5,
       "BuildEngineTimeout": 36000000,
-      "ScriptExecutionTimeout": 300000
+      "ScriptExecutionTimeout": 300000,
+      "QueryTimeoutSeconds": 300
     }
   }
 }
