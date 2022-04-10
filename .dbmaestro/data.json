@@ -820,6 +820,17 @@
                   "RemoteBranchName": "master",
                   "LocalBranchName": "master"
                 }
+              },
+              {
+                "DatabaseId": "39b7b884-85e2-44a8-a450-8ecca030dd6b",
+                "DatabaseAliasName": "rs11",
+                "DatabaseConnectionDetails": null,
+                "RepositoryDetails": {
+                  "$type": "DOP.SourceControl.ExternalSourceControl.Git.Models.GitRepositoryDetails, DOP.SourceControl.ExternalSourceControl.Git",
+                  "RemoteRepositoryURL": "https://github.com/Condensator/rs11.git",
+                  "RemoteBranchName": "master",
+                  "LocalBranchName": "master"
+                }
               }
             ]
           }
@@ -951,6 +962,29 @@
                     "identifierType": "SERVICE_NAME",
                     "identifier": "orclpdb",
                     "userName": "rs10",
+                    "Password": "qrE4JauJd0gM7CQ0IggpFA=="
+                  }
+                }
+              ],
+              "RepositoryCredentials": {
+                "UserName": "Condensator",
+                "Password": "TeQ3BbDHIVmdMV69YLXPvbQFlkDGOBn3HJJvYNDUZIKJ0DiCwBbpQjdzQvIUoADq"
+              }
+            },
+            {
+              "DatabaseId": "39b7b884-85e2-44a8-a450-8ecca030dd6b",
+              "DatabaseAliasName": "rs11",
+              "DatabaseConnectionDetails": null,
+              "BranchesDatabaseConnectionDetails": [
+                {
+                  "BranchName": "master",
+                  "DatabaseConnectionDetails": {
+                    "DBTypeName": "Oracle",
+                    "host": "localhost",
+                    "port": "1521",
+                    "identifierType": "SERVICE_NAME",
+                    "identifier": "orclpdb",
+                    "userName": "rs11",
                     "Password": "qrE4JauJd0gM7CQ0IggpFA=="
                   }
                 }
