@@ -825,7 +825,19 @@
             "EnvironmentId": "3408f195-eb90-4ef7-ab03-b15cb0d9a154",
             "EnvironmentName": "Dev_Env_1",
             "EnvironmentType": "DEV",
-            "Databases": []
+            "Databases": [
+              {
+                "DatabaseId": "dda0138b-401e-4bfc-a398-c522c28b04c4",
+                "DatabaseAliasName": "rsss1",
+                "DatabaseConnectionDetails": null,
+                "RepositoryDetails": {
+                  "$type": "DOP.SourceControl.ExternalSourceControl.Git.Models.GitRepositoryDetails, DOP.SourceControl.ExternalSourceControl.Git",
+                  "RemoteRepositoryURL": "https://github.com/Condensator/rsss1.git",
+                  "RemoteBranchName": "master",
+                  "LocalBranchName": "master"
+                }
+              }
+            ]
           }
         ],
         "SourceControlPathType": 0,
@@ -843,7 +855,29 @@
       "UserData": [
         {
           "UserName": "Condensator",
-          "DatabasesData": []
+          "DatabasesData": [
+            {
+              "DatabaseId": "dda0138b-401e-4bfc-a398-c522c28b04c4",
+              "DatabaseAliasName": "rsss1",
+              "DatabaseConnectionDetails": null,
+              "BranchesDatabaseConnectionDetails": [
+                {
+                  "BranchName": "master",
+                  "DatabaseConnectionDetails": {
+                    "DBTypeName": "SQL Server",
+                    "host": "localhost",
+                    "authType": "WindowsAuthentication",
+                    "dbName": "MPDev1",
+                    "Password": null
+                  }
+                }
+              ],
+              "RepositoryCredentials": {
+                "UserName": "Condensator",
+                "Password": "TeQ3BbDHIVmdMV69YLXPvbQFlkDGOBn3HJJvYNDUZIKJ0DiCwBbpQjdzQvIUoADq"
+              }
+            }
+          ]
         }
       ]
     }
