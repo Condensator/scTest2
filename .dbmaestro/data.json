@@ -836,6 +836,17 @@
                   "RemoteBranchName": "master",
                   "LocalBranchName": "master"
                 }
+              },
+              {
+                "DatabaseId": "c9937b92-e2d3-47ff-9558-92f3a2026263",
+                "DatabaseAliasName": "rsss2",
+                "DatabaseConnectionDetails": null,
+                "RepositoryDetails": {
+                  "$type": "DOP.SourceControl.ExternalSourceControl.Git.Models.GitRepositoryDetails, DOP.SourceControl.ExternalSourceControl.Git",
+                  "RemoteRepositoryURL": "https://github.com/Condensator/rsss2.git",
+                  "RemoteBranchName": "master",
+                  "LocalBranchName": "master"
+                }
               }
             ]
           }
@@ -868,6 +879,27 @@
                     "host": "localhost",
                     "authType": "WindowsAuthentication",
                     "dbName": "MPDev1",
+                    "Password": null
+                  }
+                }
+              ],
+              "RepositoryCredentials": {
+                "UserName": "Condensator",
+                "Password": "TeQ3BbDHIVmdMV69YLXPvbQFlkDGOBn3HJJvYNDUZIKJ0DiCwBbpQjdzQvIUoADq"
+              }
+            },
+            {
+              "DatabaseId": "c9937b92-e2d3-47ff-9558-92f3a2026263",
+              "DatabaseAliasName": "rsss2",
+              "DatabaseConnectionDetails": null,
+              "BranchesDatabaseConnectionDetails": [
+                {
+                  "BranchName": "master",
+                  "DatabaseConnectionDetails": {
+                    "DBTypeName": "SQL Server",
+                    "host": "localhost",
+                    "authType": "WindowsAuthentication",
+                    "dbName": "MPDev2",
                     "Password": null
                   }
                 }
