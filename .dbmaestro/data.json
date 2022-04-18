@@ -820,7 +820,26 @@
         "ProjectId": "c3c3127a-fec2-490b-ac81-1cf029370328",
         "ProjectName": "bug219178",
         "DBTypeName": "SQL Server",
-        "Environments": null,
+        "Environments": [
+          {
+            "EnvironmentId": "4441d94c-b4bf-4c3c-969f-25a1593b9b4c",
+            "EnvironmentName": "Dev_Env_1",
+            "EnvironmentType": "DEV",
+            "Databases": [
+              {
+                "DatabaseId": "d53204c7-5b39-4e29-9e37-58173d475b91",
+                "DatabaseAliasName": "rsss1",
+                "DatabaseConnectionDetails": null,
+                "RepositoryDetails": {
+                  "$type": "DOP.SourceControl.ExternalSourceControl.Git.Models.GitRepositoryDetails, DOP.SourceControl.ExternalSourceControl.Git",
+                  "RemoteRepositoryURL": "https://github.com/Condensator/rsss1.git",
+                  "RemoteBranchName": "master",
+                  "LocalBranchName": "master"
+                }
+              }
+            ]
+          }
+        ],
         "SourceControlPathType": 0,
         "Configuration": {
           "BuildMigrationScriptAutomatically": true,
@@ -836,7 +855,29 @@
       "UserData": [
         {
           "UserName": "Condensator",
-          "DatabasesData": []
+          "DatabasesData": [
+            {
+              "DatabaseId": "d53204c7-5b39-4e29-9e37-58173d475b91",
+              "DatabaseAliasName": "rsss1",
+              "DatabaseConnectionDetails": null,
+              "BranchesDatabaseConnectionDetails": [
+                {
+                  "BranchName": "master",
+                  "DatabaseConnectionDetails": {
+                    "DBTypeName": "SQL Server",
+                    "host": "localhost",
+                    "authType": "WindowsAuthentication",
+                    "dbName": "MPProd11",
+                    "Password": null
+                  }
+                }
+              ],
+              "RepositoryCredentials": {
+                "UserName": "jsmith19870",
+                "Password": "+d8N89r3z9mgG4lfBVTFrHB/XXmYmWX/a0+BWBS5uPbCUzOsMKWpXY5qvGZbMD8n"
+              }
+            }
+          ]
         }
       ]
     }
