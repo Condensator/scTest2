@@ -814,38 +814,6 @@
           ]
         }
       ]
-    },
-    {
-      "GlobalData": {
-        "ProjectId": "c3c3127a-fec2-490b-ac81-1cf029370328",
-        "ProjectName": "bug219178",
-        "DBTypeName": "SQL Server",
-        "Environments": [
-          {
-            "EnvironmentId": "4441d94c-b4bf-4c3c-969f-25a1593b9b4c",
-            "EnvironmentName": "Dev_Env_1",
-            "EnvironmentType": "DEV",
-            "Databases": []
-          }
-        ],
-        "SourceControlPathType": 0,
-        "Configuration": {
-          "BuildMigrationScriptAutomatically": true,
-          "DBConfiguration": {},
-          "NumberOfRevisionsInViewHistory": 10,
-          "NumberOfTagsInBuildOptions": 10,
-          "PreventCommitObjectWithConflict": false,
-          "UseCache": null
-        },
-        "ProjectArchitecture": 0,
-        "LocalDirectory": "C:\\Users\\Oleksandr Kosenko\\Documents\\"
-      },
-      "UserData": [
-        {
-          "UserName": "Condensator",
-          "DatabasesData": []
-        }
-      ]
     }
   ],
   "GlobalConfigurations": {
