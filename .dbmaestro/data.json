@@ -925,7 +925,7 @@
                     "DBTypeName": "SQL Server",
                     "host": "localhost",
                     "authType": "WindowsAuthentication",
-                    "dbName": "MPRS3",
+                    "dbName": "MPRS4",
                     "Password": null
                   }
                 }
