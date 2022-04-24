@@ -1103,7 +1103,26 @@
         "ProjectId": "8dd847f6-5a7c-42c2-87c3-df737ef582dc",
         "ProjectName": "tests2404",
         "DBTypeName": "Oracle",
-        "Environments": null,
+        "Environments": [
+          {
+            "EnvironmentId": "39dce256-3db4-4e6d-adf3-1be330160348",
+            "EnvironmentName": "Dev_Env_1",
+            "EnvironmentType": "DEV",
+            "Databases": [
+              {
+                "DatabaseId": "9266e609-6be2-4a2c-8667-81b7df6d5a39",
+                "DatabaseAliasName": "t2404-1",
+                "DatabaseConnectionDetails": null,
+                "RepositoryDetails": {
+                  "$type": "DOP.SourceControl.ExternalSourceControl.Git.Models.GitRepositoryDetails, DOP.SourceControl.ExternalSourceControl.Git",
+                  "RemoteRepositoryURL": "https://github.com/Condensator/tests2404.git",
+                  "RemoteBranchName": "master",
+                  "LocalBranchName": "master"
+                }
+              }
+            ]
+          }
+        ],
         "SourceControlPathType": 0,
         "Configuration": {
           "BuildMigrationScriptAutomatically": true,
@@ -1119,7 +1138,31 @@
       "UserData": [
         {
           "UserName": "jsmith19870",
-          "DatabasesData": []
+          "DatabasesData": [
+            {
+              "DatabaseId": "9266e609-6be2-4a2c-8667-81b7df6d5a39",
+              "DatabaseAliasName": "t2404-1",
+              "DatabaseConnectionDetails": null,
+              "BranchesDatabaseConnectionDetails": [
+                {
+                  "BranchName": "master",
+                  "DatabaseConnectionDetails": {
+                    "DBTypeName": "Oracle",
+                    "host": "localhost",
+                    "port": "1521",
+                    "identifierType": "SERVICE_NAME",
+                    "identifier": "orclpdb",
+                    "userName": "T24041",
+                    "Password": "qrE4JauJd0gM7CQ0IggpFA=="
+                  }
+                }
+              ],
+              "RepositoryCredentials": {
+                "UserName": "jsmith19870",
+                "Password": "+d8N89r3z9mgG4lfBVTFrHB/XXmYmWX/a0+BWBS5uPbCUzOsMKWpXY5qvGZbMD8n"
+              }
+            }
+          ]
         }
       ]
     }
