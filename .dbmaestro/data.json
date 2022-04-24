@@ -1097,6 +1097,31 @@
           ]
         }
       ]
+    },
+    {
+      "GlobalData": {
+        "ProjectId": "8dd847f6-5a7c-42c2-87c3-df737ef582dc",
+        "ProjectName": "tests2404",
+        "DBTypeName": "Oracle",
+        "Environments": null,
+        "SourceControlPathType": 0,
+        "Configuration": {
+          "BuildMigrationScriptAutomatically": true,
+          "DBConfiguration": {},
+          "NumberOfRevisionsInViewHistory": 10,
+          "NumberOfTagsInBuildOptions": 10,
+          "PreventCommitObjectWithConflict": false,
+          "UseCache": null
+        },
+        "ProjectArchitecture": 0,
+        "LocalDirectory": "C:\\Users\\Oleksandr Kosenko\\Documents\\projectName"
+      },
+      "UserData": [
+        {
+          "UserName": "jsmith19870",
+          "DatabasesData": []
+        }
+      ]
     }
   ],
   "GlobalConfigurations": {
