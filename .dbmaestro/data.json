@@ -1016,6 +1016,31 @@
           ]
         }
       ]
+    },
+    {
+      "GlobalData": {
+        "ProjectId": "71ee684e-5f15-46bc-ae76-8000fb0e29cd",
+        "ProjectName": "BuildTest3",
+        "DBTypeName": "Oracle",
+        "Environments": null,
+        "SourceControlPathType": 0,
+        "Configuration": {
+          "BuildMigrationScriptAutomatically": true,
+          "DBConfiguration": {},
+          "NumberOfRevisionsInViewHistory": 10,
+          "NumberOfTagsInBuildOptions": 10,
+          "PreventCommitObjectWithConflict": false,
+          "UseCache": null
+        },
+        "ProjectArchitecture": 0,
+        "LocalDirectory": "C:\\Users\\Oleksandr Kosenko\\Documents\\projectName"
+      },
+      "UserData": [
+        {
+          "UserName": "Condensator",
+          "DatabasesData": []
+        }
+      ]
     }
   ],
   "GlobalConfigurations": {
