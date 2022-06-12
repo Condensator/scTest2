@@ -1112,31 +1112,6 @@
           ]
         }
       ]
-    },
-    {
-      "GlobalData": {
-        "ProjectId": "daa14bbe-4d1c-4e8b-b03b-4a80ab7f7ea3",
-        "ProjectName": "My4",
-        "DBTypeName": "MySQL",
-        "Environments": null,
-        "SourceControlPathType": 0,
-        "Configuration": {
-          "BuildMigrationScriptAutomatically": true,
-          "DBConfiguration": {},
-          "NumberOfRevisionsInViewHistory": 10,
-          "NumberOfTagsInBuildOptions": 10,
-          "PreventCommitObjectWithConflict": false,
-          "UseCache": null
-        },
-        "ProjectArchitecture": 0,
-        "LocalDirectory": "C:\\Users\\Oleksandr Kosenko\\Documents\\projectName"
-      },
-      "UserData": [
-        {
-          "UserName": "Condensator",
-          "DatabasesData": []
-        }
-      ]
     }
   ],
   "GlobalConfigurations": {
