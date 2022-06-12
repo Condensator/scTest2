@@ -1165,7 +1165,7 @@
                     "DBTypeName": "MySQL",
                     "Password": "qrE4JauJd0gM7CQ0IggpFA==",
                     "host":"localhost",
-                    "port":"1521",
+                    "port":"3306",
                     "username":"root",
                     "security":"Prefered",
                     "dbName":"sctest1"
