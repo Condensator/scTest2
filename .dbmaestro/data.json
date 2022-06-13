@@ -1163,18 +1163,46 @@
                   "BranchName": "master",
                   "DatabaseConnectionDetails": {
                     "DBTypeName": "MySQL",
-                    "Password": "qrE4JauJd0gM7CQ0IggpFA==",
-                    "host":"localhost",
-                    "port":"3306",
-                    "username":"root",
-                    "security":"Prefered",
-                    "dbName":"sctest1"
+                    "host": "localhost",
+                    "port": "3306",
+                    "username": "root",
+                    "security": "Prefered",
+                    "dbName": "sctest1",
+                    "Password": "qrE4JauJd0gM7CQ0IggpFA=="
                   }
                 }
               ],
               "RepositoryCredentials": {
                 "UserName": "Condensator",
                 "Password": "TeQ3BbDHIVmdMV69YLXPvbQFlkDGOBn3HJJvYNDUZIKJ0DiCwBbpQjdzQvIUoADq"
+              }
+            }
+          ]
+        },
+        {
+          "UserName": "jsmith19870",
+          "DatabasesData": [
+            {
+              "DatabaseId": "017f6691-a9bd-424c-b27d-b99e2432d2d9",
+              "DatabaseAliasName": "firstDB",
+              "DatabaseConnectionDetails": null,
+              "BranchesDatabaseConnectionDetails": [
+                {
+                  "BranchName": "master",
+                  "DatabaseConnectionDetails": {
+                    "DBTypeName": "MySQL",
+                    "host": "localhost",
+                    "port": "3306",
+                    "security": "Prefered",
+                    "username": "root",
+                    "dbName": "sctest2",
+                    "Password": "qrE4JauJd0gM7CQ0IggpFA=="
+                  }
+                }
+              ],
+              "RepositoryCredentials": {
+                "UserName": "jsmith19870",
+                "Password": "+d8N89r3z9mgG4lfBVTFrHB/XXmYmWX/a0+BWBS5uPbCUzOsMKWpXY5qvGZbMD8n"
               }
             }
           ]
