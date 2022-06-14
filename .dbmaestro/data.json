@@ -737,6 +737,16 @@
                     "dbName": "MPDev1",
                     "Password": null
                   }
+                },
+                {
+                  "BranchName": "m3",
+                  "DatabaseConnectionDetails": {
+                    "DBTypeName": "SQL Server",
+                    "host": "localhost",
+                    "authType": "WindowsAuthentication",
+                    "dbName": "db93",
+                    "Password": "qrE4JauJd0gM7CQ0IggpFA=="
+                  }
                 }
               ],
               "RepositoryCredentials": {
