@@ -1396,6 +1396,18 @@
                     "dbName": "database21",
                     "Password": "qrE4JauJd0gM7CQ0IggpFA=="
                   }
+                },
+                {
+                  "BranchName": "main3",
+                  "DatabaseConnectionDetails": {
+                    "DBTypeName": "MySQL",
+                    "host": "localhost",
+                    "port": "3306",
+                    "security": "Prefered",
+                    "username": "root",
+                    "dbName": "db31",
+                    "Password": "qrE4JauJd0gM7CQ0IggpFA=="
+                  }
                 }
               ],
               "RepositoryCredentials": {
