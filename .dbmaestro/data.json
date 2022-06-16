@@ -1424,7 +1424,26 @@
         "ProjectId": "cf2acc24-181f-48e9-a9c6-e79841c4ee1f",
         "ProjectName": "MysqlDemo",
         "DBTypeName": "MySQL",
-        "Environments": null,
+        "Environments": [
+          {
+            "EnvironmentId": "df6afd6e-8d2a-4fa7-8b1c-2eb4aa3ae5d2",
+            "EnvironmentName": "Dev_Env_1",
+            "EnvironmentType": "DEV",
+            "Databases": [
+              {
+                "DatabaseId": "7c9d395f-2d89-4159-ad19-629729237b2f",
+                "DatabaseAliasName": "First",
+                "DatabaseConnectionDetails": null,
+                "RepositoryDetails": {
+                  "$type": "DOP.SourceControl.ExternalSourceControl.Git.Models.GitRepositoryDetails, DOP.SourceControl.ExternalSourceControl.Git",
+                  "RemoteRepositoryURL": "https://github.com/Condensator/mysqldemo.git",
+                  "RemoteBranchName": "master",
+                  "LocalBranchName": "master"
+                }
+              }
+            ]
+          }
+        ],
         "SourceControlPathType": 0,
         "Configuration": {
           "BuildMigrationScriptAutomatically": true,
@@ -1440,7 +1459,31 @@
       "UserData": [
         {
           "UserName": "Condensator",
-          "DatabasesData": []
+          "DatabasesData": [
+            {
+              "DatabaseId": "7c9d395f-2d89-4159-ad19-629729237b2f",
+              "DatabaseAliasName": "First",
+              "DatabaseConnectionDetails": null,
+              "BranchesDatabaseConnectionDetails": [
+                {
+                  "BranchName": "master",
+                  "DatabaseConnectionDetails": {
+                    "DBTypeName": "MySQL",
+                    "host": "localhost",
+                    "port": "3306",
+                    "security": "Prefered",
+                    "username": "root",
+                    "dbName": "sakila",
+                    "Password": "qrE4JauJd0gM7CQ0IggpFA=="
+                  }
+                }
+              ],
+              "RepositoryCredentials": {
+                "UserName": "Condensator",
+                "Password": "TeQ3BbDHIVmdMV69YLXPvbQFlkDGOBn3HJJvYNDUZIKJ0DiCwBbpQjdzQvIUoADq"
+              }
+            }
+          ]
         }
       ]
     }
