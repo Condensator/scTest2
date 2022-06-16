@@ -1484,6 +1484,34 @@
               }
             }
           ]
+        },
+        {
+          "UserName": "jsmith19870",
+          "DatabasesData": [
+            {
+              "DatabaseId": "7c9d395f-2d89-4159-ad19-629729237b2f",
+              "DatabaseAliasName": "First",
+              "DatabaseConnectionDetails": null,
+              "BranchesDatabaseConnectionDetails": [
+                {
+                  "BranchName": "master",
+                  "DatabaseConnectionDetails": {
+                    "DBTypeName": "MySQL",
+                    "host": "localhost",
+                    "port": "3306",
+                    "security": "Prefered",
+                    "username": "root",
+                    "dbName": "sakila2",
+                    "Password": "qrE4JauJd0gM7CQ0IggpFA=="
+                  }
+                }
+              ],
+              "RepositoryCredentials": {
+                "UserName": "jsmith19870",
+                "Password": "+d8N89r3z9mgG4lfBVTFrHB/XXmYmWX/a0+BWBS5uPbCUzOsMKWpXY5qvGZbMD8n"
+              }
+            }
+          ]
         }
       ]
     }
