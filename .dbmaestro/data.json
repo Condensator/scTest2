@@ -1424,7 +1424,26 @@
         "ProjectId": "9cd50a8a-23bd-4e20-abdf-d72c38105af3",
         "ProjectName": "My9",
         "DBTypeName": "MySQL",
-        "Environments": null,
+        "Environments": [
+          {
+            "EnvironmentId": "c6f8f20c-1185-4346-bbb5-a18ece34db5a",
+            "EnvironmentName": "Dev_Env_1",
+            "EnvironmentType": "DEV",
+            "Databases": [
+              {
+                "DatabaseId": "7a49f723-719b-41a5-b974-098a1350d708",
+                "DatabaseAliasName": "sctest",
+                "DatabaseConnectionDetails": null,
+                "RepositoryDetails": {
+                  "$type": "DOP.SourceControl.ExternalSourceControl.Git.Models.GitRepositoryDetails, DOP.SourceControl.ExternalSourceControl.Git",
+                  "RemoteRepositoryURL": "https://github.com/Condensator/mysqltest1.git",
+                  "RemoteBranchName": "master",
+                  "LocalBranchName": "master"
+                }
+              }
+            ]
+          }
+        ],
         "SourceControlPathType": 0,
         "Configuration": {
           "BuildMigrationScriptAutomatically": true,
@@ -1440,7 +1459,31 @@
       "UserData": [
         {
           "UserName": "jsmith19870",
-          "DatabasesData": []
+          "DatabasesData": [
+            {
+              "DatabaseId": "7a49f723-719b-41a5-b974-098a1350d708",
+              "DatabaseAliasName": "sctest",
+              "DatabaseConnectionDetails": null,
+              "BranchesDatabaseConnectionDetails": [
+                {
+                  "BranchName": "master",
+                  "DatabaseConnectionDetails": {
+                    "DBTypeName": "MySQL",
+                    "host": "localhost",
+                    "port": "3306",
+                    "security": "Prefered",
+                    "username": "root",
+                    "dbName": "sctest2",
+                    "Password": "qrE4JauJd0gM7CQ0IggpFA=="
+                  }
+                }
+              ],
+              "RepositoryCredentials": {
+                "UserName": "jsmith19870",
+                "Password": "+d8N89r3z9mgG4lfBVTFrHB/XXmYmWX/a0+BWBS5uPbCUzOsMKWpXY5qvGZbMD8n"
+              }
+            }
+          ]
         }
       ]
     }
