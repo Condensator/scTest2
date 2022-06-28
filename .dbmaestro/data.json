@@ -1464,6 +1464,18 @@
                     "dbName": "a6",
                     "Password": "qrE4JauJd0gM7CQ0IggpFA=="
                   }
+                },
+                {
+                  "BranchName": "a7",
+                  "DatabaseConnectionDetails": {
+                    "DBTypeName": "MySQL",
+                    "host": "localhost",
+                    "port": "3306",
+                    "security": "Prefered",
+                    "username": "root",
+                    "dbName": "a7",
+                    "Password": "qrE4JauJd0gM7CQ0IggpFA=="
+                  }
                 }
               ],
               "RepositoryCredentials": {
