@@ -1488,6 +1488,18 @@
                     "dbName": "a8",
                     "Password": "qrE4JauJd0gM7CQ0IggpFA=="
                   }
+                },
+                {
+                  "BranchName": "t9",
+                  "DatabaseConnectionDetails": {
+                    "DBTypeName": "MySQL",
+                    "host": "localhost",
+                    "port": "3306",
+                    "security": "Prefered",
+                    "username": "root",
+                    "dbName": "t9",
+                    "Password": "qrE4JauJd0gM7CQ0IggpFA=="
+                  }
                 }
               ],
               "RepositoryCredentials": {
@@ -1627,6 +1639,7 @@
   "GlobalConfigurations": {
     "TempDirectory": null,
     "ExternalBuildEnginePath": null,
+    "MaxFileLength": 236,
     "Performance": {
       "ObjectParallelCount": 5,
       "QueryParallelCount": 5,
