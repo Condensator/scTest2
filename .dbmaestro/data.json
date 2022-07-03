@@ -1700,6 +1700,34 @@
               }
             }
           ]
+        },
+        {
+          "UserName": "jsmith19870",
+          "DatabasesData": [
+            {
+              "DatabaseId": "11865b23-b735-45ce-9240-e13bc2a33234",
+              "DatabaseAliasName": "RS1",
+              "DatabaseConnectionDetails": null,
+              "BranchesDatabaseConnectionDetails": [
+                {
+                  "BranchName": "master",
+                  "DatabaseConnectionDetails": {
+                    "DBTypeName": "Oracle",
+                    "host": "localhost",
+                    "port": "1525",
+                    "identifierType": "SERVICE_NAME",
+                    "identifier": "orcl",
+                    "userName": "RS3",
+                    "Password": "qrE4JauJd0gM7CQ0IggpFA=="
+                  }
+                }
+              ],
+              "RepositoryCredentials": {
+                "UserName": "jsmith19870",
+                "Password": "+d8N89r3z9mgG4lfBVTFrHB/XXmYmWX/a0+BWBS5uPbCUzOsMKWpXY5qvGZbMD8n"
+              }
+            }
+          ]
         }
       ]
     }
