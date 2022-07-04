@@ -1752,6 +1752,17 @@
                   "RemoteBranchName": "master",
                   "LocalBranchName": "master"
                 }
+              },
+              {
+                "DatabaseId": "baa85641-9db7-41af-b9f9-4a297e3aae5b",
+                "DatabaseAliasName": "QA",
+                "DatabaseConnectionDetails": null,
+                "RepositoryDetails": {
+                  "$type": "DOP.SourceControl.ExternalSourceControl.Git.Models.GitRepositoryDetails, DOP.SourceControl.ExternalSourceControl.Git",
+                  "RemoteRepositoryURL": "https://github.com/Condensator/Ora122-2.git",
+                  "RemoteBranchName": "master",
+                  "LocalBranchName": "master"
+                }
               }
             ]
           }
@@ -1798,6 +1809,29 @@
                     "identifierType": "SERVICE_NAME",
                     "identifier": "ORCLPDB1.localdomain",
                     "userName": "RS11",
+                    "Password": "qrE4JauJd0gM7CQ0IggpFA=="
+                  }
+                }
+              ],
+              "RepositoryCredentials": {
+                "UserName": "Condensator",
+                "Password": "TeQ3BbDHIVmdMV69YLXPvbQFlkDGOBn3HJJvYNDUZIKJ0DiCwBbpQjdzQvIUoADq"
+              }
+            },
+            {
+              "DatabaseId": "baa85641-9db7-41af-b9f9-4a297e3aae5b",
+              "DatabaseAliasName": "QA",
+              "DatabaseConnectionDetails": null,
+              "BranchesDatabaseConnectionDetails": [
+                {
+                  "BranchName": "master",
+                  "DatabaseConnectionDetails": {
+                    "DBTypeName": "Oracle",
+                    "host": "localhost",
+                    "port": "1526",
+                    "identifierType": "SERVICE_NAME",
+                    "identifier": "ORCLPDB1.localdomain",
+                    "userName": "QA1",
                     "Password": "qrE4JauJd0gM7CQ0IggpFA=="
                   }
                 }
