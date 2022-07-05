@@ -1797,7 +1797,6 @@
                     "identifierType": "SERVICE_NAME",
                     "identifier": "ORCLPDB1.localdomain",
                     "userName": "RS1",
-                    "proxyName": "RS1PROXY",
                     "Password": "qrE4JauJd0gM7CQ0IggpFA=="
                   }
                 },
