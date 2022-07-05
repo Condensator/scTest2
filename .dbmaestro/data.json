@@ -1898,6 +1898,19 @@
                     "userName": "RS2",
                     "Password": "qrE4JauJd0gM7CQ0IggpFA=="
                   }
+                },
+                {
+                  "BranchName": "ewqt",
+                  "DatabaseConnectionDetails": {
+                    "DBTypeName": "Oracle",
+                    "host": "localhost",
+                    "port": "1526",
+                    "identifierType": "SERVICE_NAME",
+                    "identifier": "ORCLPDB1.localdomain",
+                    "userName": "RS44444",
+                    "proxyName": "RS1",
+                    "Password": "qrE4JauJd0gM7CQ0IggpFA=="
+                  }
                 }
               ],
               "RepositoryCredentials": {
