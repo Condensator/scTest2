@@ -1824,6 +1824,18 @@
                     "userName": "RS71",
                     "Password": "qrE4JauJd0gM7CQ0IggpFA=="
                   }
+                },
+                {
+                  "BranchName": "t8",
+                  "DatabaseConnectionDetails": {
+                    "DBTypeName": "Oracle",
+                    "host": "localhost",
+                    "port": "1526",
+                    "identifierType": "SERVICE_NAME",
+                    "identifier": "ORCLPDB1.localdomain",
+                    "userName": "RS81",
+                    "Password": "qrE4JauJd0gM7CQ0IggpFA=="
+                  }
                 }
               ],
               "RepositoryCredentials": {
