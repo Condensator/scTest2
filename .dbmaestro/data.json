@@ -1664,6 +1664,29 @@
                 "UserName": "Condensator",
                 "Password": "TeQ3BbDHIVmdMV69YLXPvbQFlkDGOBn3HJJvYNDUZIKJ0DiCwBbpQjdzQvIUoADq"
               }
+            },
+            {
+              "DatabaseId": "98425329-d6aa-46b8-ba10-2b887b344301",
+              "DatabaseAliasName": "sctest57",
+              "DatabaseConnectionDetails": null,
+              "BranchesDatabaseConnectionDetails": [
+                {
+                  "BranchName": "master",
+                  "DatabaseConnectionDetails": {
+                    "DBTypeName": "MySQL",
+                    "host": "localhost",
+                    "port": "3307",
+                    "security": "Prefered",
+                    "username": "root",
+                    "dbName": "sctest571",
+                    "Password": "qrE4JauJd0gM7CQ0IggpFA=="
+                  }
+                }
+              ],
+              "RepositoryCredentials": {
+                "UserName": "Condensator",
+                "Password": "TeQ3BbDHIVmdMV69YLXPvbQFlkDGOBn3HJJvYNDUZIKJ0DiCwBbpQjdzQvIUoADq"
+              }
             }
           ]
         }
