@@ -1560,6 +1560,17 @@
                   "RemoteBranchName": "master",
                   "LocalBranchName": "master"
                 }
+              },
+              {
+                "DatabaseId": "98425329-d6aa-46b8-ba10-2b887b344301",
+                "DatabaseAliasName": "sctest57",
+                "DatabaseConnectionDetails": null,
+                "RepositoryDetails": {
+                  "$type": "DOP.SourceControl.ExternalSourceControl.Git.Models.GitRepositoryDetails, DOP.SourceControl.ExternalSourceControl.Git",
+                  "RemoteRepositoryURL": "https://github.com/Condensator/mysql57.git",
+                  "RemoteBranchName": "master",
+                  "LocalBranchName": "master"
+                }
               }
             ]
           }
@@ -1594,6 +1605,29 @@
                     "security": "Prefered",
                     "username": "root",
                     "dbName": "sctest2",
+                    "Password": "qrE4JauJd0gM7CQ0IggpFA=="
+                  }
+                }
+              ],
+              "RepositoryCredentials": {
+                "UserName": "jsmith19870",
+                "Password": "+d8N89r3z9mgG4lfBVTFrHB/XXmYmWX/a0+BWBS5uPbCUzOsMKWpXY5qvGZbMD8n"
+              }
+            },
+            {
+              "DatabaseId": "98425329-d6aa-46b8-ba10-2b887b344301",
+              "DatabaseAliasName": "sctest57",
+              "DatabaseConnectionDetails": null,
+              "BranchesDatabaseConnectionDetails": [
+                {
+                  "BranchName": "master",
+                  "DatabaseConnectionDetails": {
+                    "DBTypeName": "MySQL",
+                    "host": "localhost",
+                    "port": "3307",
+                    "security": "Prefered",
+                    "username": "root",
+                    "dbName": "sctest572",
                     "Password": "qrE4JauJd0gM7CQ0IggpFA=="
                   }
                 }
