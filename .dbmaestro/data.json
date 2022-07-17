@@ -1630,6 +1630,18 @@
                     "dbName": "roytest2",
                     "Password": "qrE4JauJd0gM7CQ0IggpFA=="
                   }
+                },
+                {
+                  "BranchName": "test5",
+                  "DatabaseConnectionDetails": {
+                    "DBTypeName": "MySQL",
+                    "host": "localhost",
+                    "port": "3306",
+                    "security": "Prefered",
+                    "username": "root",
+                    "dbName": "test5555555",
+                    "Password": "qrE4JauJd0gM7CQ0IggpFA=="
+                  }
                 }
               ],
               "RepositoryCredentials": {
