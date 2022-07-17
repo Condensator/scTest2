@@ -2047,7 +2047,19 @@
             "EnvironmentId": "4a06e09e-3f80-425c-8614-7031e143fd80",
             "EnvironmentName": "Dev_Env_1",
             "EnvironmentType": "DEV",
-            "Databases": []
+            "Databases": [
+              {
+                "DatabaseId": "8526a2f0-52ee-4d50-a8c9-1dd9dd93bb83",
+                "DatabaseAliasName": "postgres14",
+                "DatabaseConnectionDetails": null,
+                "RepositoryDetails": {
+                  "$type": "DOP.SourceControl.ExternalSourceControl.Git.Models.GitRepositoryDetails, DOP.SourceControl.ExternalSourceControl.Git",
+                  "RemoteRepositoryURL": "https://github.com/Condensator/pg14.git",
+                  "RemoteBranchName": "master",
+                  "LocalBranchName": "master"
+                }
+              }
+            ]
           }
         ],
         "SourceControlPathType": 0,
@@ -2065,7 +2077,30 @@
       "UserData": [
         {
           "UserName": "Condensator",
-          "DatabasesData": []
+          "DatabasesData": [
+            {
+              "DatabaseId": "8526a2f0-52ee-4d50-a8c9-1dd9dd93bb83",
+              "DatabaseAliasName": "postgres14",
+              "DatabaseConnectionDetails": null,
+              "BranchesDatabaseConnectionDetails": [
+                {
+                  "BranchName": "master",
+                  "DatabaseConnectionDetails": {
+                    "DBTypeName": "PostgreSQL",
+                    "host": "localhost",
+                    "port": "5442",
+                    "userName": "postgres",
+                    "dbName": "sc1",
+                    "Password": "qrE4JauJd0gM7CQ0IggpFA=="
+                  }
+                }
+              ],
+              "RepositoryCredentials": {
+                "UserName": "Condensator",
+                "Password": "TeQ3BbDHIVmdMV69YLXPvbQFlkDGOBn3HJJvYNDUZIKJ0DiCwBbpQjdzQvIUoADq"
+              }
+            }
+          ]
         }
       ]
     }
