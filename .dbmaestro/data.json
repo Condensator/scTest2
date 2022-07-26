@@ -2150,7 +2150,19 @@
             "EnvironmentId": "ef43c6c4-f5d1-4079-baa8-e7ab023fd822",
             "EnvironmentName": "Dev_Env_1",
             "EnvironmentType": "DEV",
-            "Databases": []
+            "Databases": [
+              {
+                "DatabaseId": "65fb99cb-2e47-4508-8a0c-a1e2a273f806",
+                "DatabaseAliasName": "SC112",
+                "DatabaseConnectionDetails": null,
+                "RepositoryDetails": {
+                  "$type": "DOP.SourceControl.ExternalSourceControl.Git.Models.GitRepositoryDetails, DOP.SourceControl.ExternalSourceControl.Git",
+                  "RemoteRepositoryURL": "http://localhost/Bonobo.Git.Server/pgp3.git",
+                  "RemoteBranchName": "master",
+                  "LocalBranchName": "master"
+                }
+              }
+            ]
           }
         ],
         "SourceControlPathType": 0,
@@ -2168,7 +2180,30 @@
       "UserData": [
         {
           "UserName": "Condensator",
-          "DatabasesData": []
+          "DatabasesData": [
+            {
+              "DatabaseId": "65fb99cb-2e47-4508-8a0c-a1e2a273f806",
+              "DatabaseAliasName": "SC112",
+              "DatabaseConnectionDetails": null,
+              "BranchesDatabaseConnectionDetails": [
+                {
+                  "BranchName": "master",
+                  "DatabaseConnectionDetails": {
+                    "DBTypeName": "PostgreSQL",
+                    "host": "localhost",
+                    "port": "5434",
+                    "userName": "postgres",
+                    "dbName": "sc1",
+                    "Password": "qrE4JauJd0gM7CQ0IggpFA=="
+                  }
+                }
+              ],
+              "RepositoryCredentials": {
+                "UserName": "Condensator",
+                "Password": "TeQ3BbDHIVmdMV69YLXPvbQFlkDGOBn3HJJvYNDUZIKJ0DiCwBbpQjdzQvIUoADq"
+              }
+            }
+          ]
         }
       ]
     }
