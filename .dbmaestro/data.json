@@ -2177,7 +2177,26 @@
         "ProjectId": "247dc63f-6cf0-4d8a-96f0-ba28260c1dd1",
         "ProjectName": "RoyPerfTest",
         "DBTypeName": "MySQL",
-        "Environments": null,
+        "Environments": [
+          {
+            "EnvironmentId": "505776cf-7d48-48d4-aecf-5a765ca55116",
+            "EnvironmentName": "Dev_Env_1",
+            "EnvironmentType": "DEV",
+            "Databases": [
+              {
+                "DatabaseId": "950b5923-fa6a-44c4-adec-fa25d853f740",
+                "DatabaseAliasName": "royperftest",
+                "DatabaseConnectionDetails": null,
+                "RepositoryDetails": {
+                  "$type": "DOP.SourceControl.ExternalSourceControl.Git.Models.GitRepositoryDetails, DOP.SourceControl.ExternalSourceControl.Git",
+                  "RemoteRepositoryURL": "http://localhost/Bonobo.Git.Server/royperftest1.git",
+                  "RemoteBranchName": "master",
+                  "LocalBranchName": "master"
+                }
+              }
+            ]
+          }
+        ],
         "SourceControlPathType": 0,
         "Configuration": {
           "BuildMigrationScriptAutomatically": true,
@@ -2193,7 +2212,31 @@
       "UserData": [
         {
           "UserName": "Condensator",
-          "DatabasesData": []
+          "DatabasesData": [
+            {
+              "DatabaseId": "950b5923-fa6a-44c4-adec-fa25d853f740",
+              "DatabaseAliasName": "royperftest",
+              "DatabaseConnectionDetails": null,
+              "BranchesDatabaseConnectionDetails": [
+                {
+                  "BranchName": "master",
+                  "DatabaseConnectionDetails": {
+                    "DBTypeName": "MySQL",
+                    "host": "localhost",
+                    "port": "3306",
+                    "security": "Prefered",
+                    "username": "root",
+                    "dbName": "royperftest1",
+                    "Password": "qrE4JauJd0gM7CQ0IggpFA=="
+                  }
+                }
+              ],
+              "RepositoryCredentials": {
+                "UserName": "Condensator",
+                "Password": "TeQ3BbDHIVmdMV69YLXPvbQFlkDGOBn3HJJvYNDUZIKJ0DiCwBbpQjdzQvIUoADq"
+              }
+            }
+          ]
         }
       ]
     }
