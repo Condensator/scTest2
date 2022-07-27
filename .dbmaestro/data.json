@@ -2139,6 +2139,31 @@
           ]
         }
       ]
+    },
+    {
+      "GlobalData": {
+        "ProjectId": "91e29ad4-bb38-420b-94e9-5d50345d5037",
+        "ProjectName": "Postgres",
+        "DBTypeName": "PostgreSQL",
+        "Environments": null,
+        "SourceControlPathType": 0,
+        "Configuration": {
+          "BuildMigrationScriptAutomatically": true,
+          "DBConfiguration": {},
+          "NumberOfRevisionsInViewHistory": 10,
+          "NumberOfTagsInBuildOptions": 10,
+          "PreventCommitObjectWithConflict": false,
+          "UseCache": null
+        },
+        "ProjectArchitecture": 0,
+        "LocalDirectory": "C:\\Users\\Oleksandr Kosenko\\Documents\\projectName"
+      },
+      "UserData": [
+        {
+          "UserName": "Condensator",
+          "DatabasesData": []
+        }
+      ]
     }
   ],
   "GlobalConfigurations": {
