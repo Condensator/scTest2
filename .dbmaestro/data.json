@@ -2150,19 +2150,7 @@
             "EnvironmentId": "fcf4b333-ad0e-4098-97ef-89bafc72ecda",
             "EnvironmentName": "Dev_Env_1",
             "EnvironmentType": "DEV",
-            "Databases": [
-              {
-                "DatabaseId": "fd11e8c1-fb9a-40b0-9aca-3426cafb9e01",
-                "DatabaseAliasName": "Performance",
-                "DatabaseConnectionDetails": null,
-                "RepositoryDetails": {
-                  "$type": "DOP.SourceControl.ExternalSourceControl.Git.Models.GitRepositoryDetails, DOP.SourceControl.ExternalSourceControl.Git",
-                  "RemoteRepositoryURL": "https://github.com/Condensator/pgperformance1.git",
-                  "RemoteBranchName": "master",
-                  "LocalBranchName": "master"
-                }
-              }
-            ]
+            "Databases": []
           }
         ],
         "SourceControlPathType": 0,
@@ -2180,30 +2168,7 @@
       "UserData": [
         {
           "UserName": "Condensator",
-          "DatabasesData": [
-            {
-              "DatabaseId": "fd11e8c1-fb9a-40b0-9aca-3426cafb9e01",
-              "DatabaseAliasName": "Performance",
-              "DatabaseConnectionDetails": null,
-              "BranchesDatabaseConnectionDetails": [
-                {
-                  "BranchName": "master",
-                  "DatabaseConnectionDetails": {
-                    "DBTypeName": "PostgreSQL",
-                    "host": "localhost",
-                    "port": "5434",
-                    "userName": "postgres",
-                    "dbName": "sc1",
-                    "Password": "qrE4JauJd0gM7CQ0IggpFA=="
-                  }
-                }
-              ],
-              "RepositoryCredentials": {
-                "UserName": "Condensator",
-                "Password": "TeQ3BbDHIVmdMV69YLXPvbQFlkDGOBn3HJJvYNDUZIKJ0DiCwBbpQjdzQvIUoADq"
-              }
-            }
-          ]
+          "DatabasesData": []
         }
       ]
     }
