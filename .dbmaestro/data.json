@@ -2144,7 +2144,7 @@
       "GlobalData": {
         "ProjectId": "91e29ad4-bb38-420b-94e9-5d50345d5037",
         "ProjectName": "Postgres",
-        "DBTypeName": "MySQL",
+        "DBTypeName": "PostgreSQL",
         "Environments": [
           {
             "EnvironmentId": "fcf4b333-ad0e-4098-97ef-89bafc72ecda",
@@ -2200,7 +2200,7 @@
                 {
                   "BranchName": "master",
                   "DatabaseConnectionDetails": {
-                    "DBTypeName": "MySQL",
+                    "DBTypeName": "PostgreSQL",
                     "host": "localhost",
                     "port": "5434",
                     "userName": "postgres",
@@ -2222,7 +2222,7 @@
                 {
                   "BranchName": "master",
                   "DatabaseConnectionDetails": {
-                    "DBTypeName": "MySQL",
+                    "DBTypeName": "PostgreSQL",
                     "host": "localhost",
                     "port": "5434",
                     "userName": "postgres",
