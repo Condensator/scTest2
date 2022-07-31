@@ -2172,6 +2172,17 @@
                   "RemoteBranchName": "master",
                   "LocalBranchName": "master"
                 }
+              },
+              {
+                "DatabaseId": "f75d4be7-3299-4a45-8baa-78ff9980fd13",
+                "DatabaseAliasName": "IsraelDB",
+                "DatabaseConnectionDetails": null,
+                "RepositoryDetails": {
+                  "$type": "DOP.SourceControl.ExternalSourceControl.Git.Models.GitRepositoryDetails, DOP.SourceControl.ExternalSourceControl.Git",
+                  "RemoteRepositoryURL": "http://localhost/Bonobo.Git.Server/israeltest1.git",
+                  "RemoteBranchName": "master",
+                  "LocalBranchName": "master"
+                }
               }
             ]
           }
@@ -2227,6 +2238,28 @@
                     "port": "5434",
                     "userName": "postgres",
                     "dbName": "sc11",
+                    "Password": "qrE4JauJd0gM7CQ0IggpFA=="
+                  }
+                }
+              ],
+              "RepositoryCredentials": {
+                "UserName": "Condensator",
+                "Password": "TeQ3BbDHIVmdMV69YLXPvbQFlkDGOBn3HJJvYNDUZIKJ0DiCwBbpQjdzQvIUoADq"
+              }
+            },
+            {
+              "DatabaseId": "f75d4be7-3299-4a45-8baa-78ff9980fd13",
+              "DatabaseAliasName": "IsraelDB",
+              "DatabaseConnectionDetails": null,
+              "BranchesDatabaseConnectionDetails": [
+                {
+                  "BranchName": "master",
+                  "DatabaseConnectionDetails": {
+                    "DBTypeName": "PostgreSQL",
+                    "host": "localhost",
+                    "port": "5434",
+                    "userName": "postgres",
+                    "dbName": "isr1",
                     "Password": "qrE4JauJd0gM7CQ0IggpFA=="
                   }
                 }
