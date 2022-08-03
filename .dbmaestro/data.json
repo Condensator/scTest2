@@ -2214,7 +2214,7 @@
                     "DBTypeName": "MySQL",
                     "host": "localhost",
                     "port": "5434",
-                    "userName": "postgres",
+                    "username": "postgres",
                     "dbName": "sc1",
                     "Password": "qrE4JauJd0gM7CQ0IggpFA=="
                   }
@@ -2236,7 +2236,7 @@
                     "DBTypeName": "MySQL",
                     "host": "localhost",
                     "port": "5434",
-                    "userName": "postgres",
+                    "username": "postgres",
                     "dbName": "sc11",
                     "Password": "qrE4JauJd0gM7CQ0IggpFA=="
                   }
@@ -2258,7 +2258,7 @@
                     "DBTypeName": "MySQL",
                     "host": "localhost",
                     "port": "5434",
-                    "userName": "postgres",
+                    "username": "postgres",
                     "dbName": "isr1",
                     "Password": "qrE4JauJd0gM7CQ0IggpFA=="
                   }
@@ -2406,6 +2406,31 @@
               }
             }
           ]
+        }
+      ]
+    },
+    {
+      "GlobalData": {
+        "ProjectId": "9e48452c-0c62-4ecf-9d4e-c4b1f64e36e5",
+        "ProjectName": "OracleRDS2",
+        "DBTypeName": "Oracle",
+        "Environments": null,
+        "SourceControlPathType": 0,
+        "Configuration": {
+          "BuildMigrationScriptAutomatically": true,
+          "DBConfiguration": {},
+          "NumberOfRevisionsInViewHistory": 10,
+          "NumberOfTagsInBuildOptions": 10,
+          "PreventCommitObjectWithConflict": false,
+          "UseCache": null
+        },
+        "ProjectArchitecture": 0,
+        "LocalDirectory": "C:\\Users\\Oleksandr Kosenko\\Documents\\projectName"
+      },
+      "UserData": [
+        {
+          "UserName": "Condensator",
+          "DatabasesData": []
         }
       ]
     }
