@@ -2550,7 +2550,26 @@
         "ProjectId": "800a455f-8f18-435d-a991-337d377961c4",
         "ProjectName": "initTest2-2",
         "DBTypeName": "Oracle",
-        "Environments": null,
+        "Environments": [
+          {
+            "EnvironmentId": "30183ea3-fc0f-4fb2-a7fb-027f55a6159c",
+            "EnvironmentName": "Dev_Env_1",
+            "EnvironmentType": "DEV",
+            "Databases": [
+              {
+                "DatabaseId": "ce7be677-e581-4756-ac72-cd3ac182d772",
+                "DatabaseAliasName": "inittest22",
+                "DatabaseConnectionDetails": null,
+                "RepositoryDetails": {
+                  "$type": "DOP.SourceControl.ExternalSourceControl.Git.Models.GitRepositoryDetails, DOP.SourceControl.ExternalSourceControl.Git",
+                  "RemoteRepositoryURL": "https://github.com/Condensator/initTest2.git",
+                  "RemoteBranchName": "master",
+                  "LocalBranchName": "master"
+                }
+              }
+            ]
+          }
+        ],
         "SourceControlPathType": 0,
         "Configuration": {
           "BuildMigrationScriptAutomatically": true,
@@ -2566,7 +2585,31 @@
       "UserData": [
         {
           "UserName": "Condensator",
-          "DatabasesData": []
+          "DatabasesData": [
+            {
+              "DatabaseId": "ce7be677-e581-4756-ac72-cd3ac182d772",
+              "DatabaseAliasName": "inittest22",
+              "DatabaseConnectionDetails": null,
+              "BranchesDatabaseConnectionDetails": [
+                {
+                  "BranchName": "master",
+                  "DatabaseConnectionDetails": {
+                    "DBTypeName": "Oracle",
+                    "host": "database-1.c7r9m6gpxrao.us-east-2.rds.amazonaws.com",
+                    "port": "1521",
+                    "identifierType": "SID",
+                    "identifier": "ORCL",
+                    "userName": "USER5",
+                    "Password": "wKp0wArnWjoaHe05+VFASw=="
+                  }
+                }
+              ],
+              "RepositoryCredentials": {
+                "UserName": "Condensator",
+                "Password": "TeQ3BbDHIVmdMV69YLXPvbQFlkDGOBn3HJJvYNDUZIKJ0DiCwBbpQjdzQvIUoADq"
+              }
+            }
+          ]
         }
       ]
     }
