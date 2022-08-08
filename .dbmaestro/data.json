@@ -2670,6 +2670,18 @@
                     "userName": "USER6",
                     "Password": "wKp0wArnWjoaHe05+VFASw=="
                   }
+                },
+                {
+                  "BranchName": "m2",
+                  "DatabaseConnectionDetails": {
+                    "DBTypeName": "Oracle",
+                    "host": "database-1.c7r9m6gpxrao.us-east-2.rds.amazonaws.com",
+                    "port": "1521",
+                    "identifierType": "SID",
+                    "identifier": "ORCL",
+                    "userName": "USER8",
+                    "Password": "wKp0wArnWjoaHe05+VFASw=="
+                  }
                 }
               ],
               "RepositoryCredentials": {
