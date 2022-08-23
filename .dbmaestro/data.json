@@ -92,7 +92,8 @@
             }
           ]
         }
-      ]
+      ],
+      "DatabasesStaticDataObjects": null
     },
     {
       "GlobalData": {
@@ -186,7 +187,8 @@
             }
           ]
         }
-      ]
+      ],
+      "DatabasesStaticDataObjects": null
     },
     {
       "GlobalData": {
@@ -280,7 +282,8 @@
             }
           ]
         }
-      ]
+      ],
+      "DatabasesStaticDataObjects": null
     },
     {
       "GlobalData": {
@@ -369,7 +372,8 @@
             }
           ]
         }
-      ]
+      ],
+      "DatabasesStaticDataObjects": null
     },
     {
       "GlobalData": {
@@ -463,7 +467,8 @@
             }
           ]
         }
-      ]
+      ],
+      "DatabasesStaticDataObjects": null
     },
     {
       "GlobalData": {
@@ -531,7 +536,8 @@
             }
           ]
         }
-      ]
+      ],
+      "DatabasesStaticDataObjects": null
     },
     {
       "GlobalData": {
@@ -636,7 +642,8 @@
             }
           ]
         }
-      ]
+      ],
+      "DatabasesStaticDataObjects": null
     },
     {
       "GlobalData": {
@@ -929,7 +936,8 @@
             }
           ]
         }
-      ]
+      ],
+      "DatabasesStaticDataObjects": null
     },
     {
       "GlobalData": {
@@ -1025,7 +1033,8 @@
             }
           ]
         }
-      ]
+      ],
+      "DatabasesStaticDataObjects": null
     },
     {
       "GlobalData": {
@@ -1205,7 +1214,8 @@
             }
           ]
         }
-      ]
+      ],
+      "DatabasesStaticDataObjects": null
     },
     {
       "GlobalData": {
@@ -1349,7 +1359,8 @@
             }
           ]
         }
-      ]
+      ],
+      "DatabasesStaticDataObjects": null
     },
     {
       "GlobalData": {
@@ -1565,7 +1576,8 @@
             }
           ]
         }
-      ]
+      ],
+      "DatabasesStaticDataObjects": null
     },
     {
       "GlobalData": {
@@ -1997,7 +2009,8 @@
             }
           ]
         }
-      ]
+      ],
+      "DatabasesStaticDataObjects": null
     },
     {
       "GlobalData": {
@@ -2093,7 +2106,8 @@
             }
           ]
         }
-      ]
+      ],
+      "DatabasesStaticDataObjects": null
     },
     {
       "GlobalData": {
@@ -2226,7 +2240,8 @@
             }
           ]
         }
-      ]
+      ],
+      "DatabasesStaticDataObjects": null
     },
     {
       "GlobalData": {
@@ -2322,7 +2337,8 @@
             }
           ]
         }
-      ]
+      ],
+      "DatabasesStaticDataObjects": null
     },
     {
       "GlobalData": {
@@ -2390,7 +2406,8 @@
             }
           ]
         }
-      ]
+      ],
+      "DatabasesStaticDataObjects": null
     },
     {
       "GlobalData": {
@@ -2458,7 +2475,8 @@
             }
           ]
         }
-      ]
+      ],
+      "DatabasesStaticDataObjects": null
     },
     {
       "GlobalData": {
@@ -2526,7 +2544,8 @@
             }
           ]
         }
-      ]
+      ],
+      "DatabasesStaticDataObjects": null
     },
     {
       "GlobalData": {
@@ -2579,9 +2598,9 @@
                   "DatabaseConnectionDetails": {
                     "DBTypeName": "Oracle",
                     "host": "localhost",
-                    "port": "1526",
+                    "port": "1521",
                     "identifierType": "SERVICE_NAME",
-                    "identifier": "ORCLPDB1.localdomain",
+                    "identifier": "orclpdb",
                     "userName": "RS1",
                     "Password": "qrE4JauJd0gM7CQ0IggpFA=="
                   }
@@ -2594,7 +2613,8 @@
             }
           ]
         }
-      ]
+      ],
+      "DatabasesStaticDataObjects": null
     }
   ],
   "GlobalConfigurations": {
