@@ -2618,6 +2618,18 @@
               "name": "city"
             }
           ]
+        },
+        {
+          "DatabaseId": "498cedac-fc9c-481e-a7bb-0ba7efb5802d",
+          "DatabaseAliasName": "sctest4",
+          "StaticDataObjects": [
+            {
+              "type": "TABLE",
+              "UniqueIndex": "PRIMARY",
+              "schema": "",
+              "name": "country"
+            }
+          ]
         }
       ]
     }
