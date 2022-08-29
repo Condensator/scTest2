@@ -1360,7 +1360,20 @@
           ]
         }
       ],
-      "DatabasesStaticDataObjects": null
+      "DatabasesStaticDataObjects": [
+        {
+          "DatabaseId": "ed32aa4a-5602-4cb7-b90f-9cb519ce8344",
+          "DatabaseAliasName": "mysql8",
+          "StaticDataObjects": [
+            {
+              "type": "TABLE",
+              "UniqueIndex": "PRIMARY",
+              "schema": "",
+              "name": "city"
+            }
+          ]
+        }
+      ]
     },
     {
       "GlobalData": {
