@@ -1370,6 +1370,12 @@
               "UniqueIndex": "PRIMARY",
               "schema": "",
               "name": "city"
+            },
+            {
+              "type": "TABLE",
+              "UniqueIndex": "PRIMARY",
+              "schema": "",
+              "name": "country"
             }
           ]
         }
