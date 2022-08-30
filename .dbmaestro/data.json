@@ -2644,7 +2644,26 @@
         "ProjectId": "8b1c092c-974b-4775-90d4-59bc74b9f538",
         "ProjectName": "Smalldb",
         "DBTypeName": "PostgreSQL",
-        "Environments": null,
+        "Environments": [
+          {
+            "EnvironmentId": "3fbcd263-4fbd-4fa9-9cb0-6553ad70e308",
+            "EnvironmentName": "Dev_Env_1",
+            "EnvironmentType": "DEV",
+            "Databases": [
+              {
+                "DatabaseId": "138f8b98-5537-46f6-96a0-c0e9f0a0adf8",
+                "DatabaseAliasName": "Smalldb",
+                "DatabaseConnectionDetails": null,
+                "RepositoryDetails": {
+                  "$type": "DOP.SourceControl.ExternalSourceControl.Git.Models.GitRepositoryDetails, DOP.SourceControl.ExternalSourceControl.Git",
+                  "RemoteRepositoryURL": "http://localhost/Bonobo.Git.Server/pg.git",
+                  "RemoteBranchName": "master",
+                  "LocalBranchName": "master"
+                }
+              }
+            ]
+          }
+        ],
         "SourceControlPathType": 0,
         "Configuration": {
           "BuildMigrationScriptAutomatically": true,
@@ -2660,7 +2679,30 @@
       "UserData": [
         {
           "UserName": "Condensator",
-          "DatabasesData": []
+          "DatabasesData": [
+            {
+              "DatabaseId": "138f8b98-5537-46f6-96a0-c0e9f0a0adf8",
+              "DatabaseAliasName": "Smalldb",
+              "DatabaseConnectionDetails": null,
+              "BranchesDatabaseConnectionDetails": [
+                {
+                  "BranchName": "master",
+                  "DatabaseConnectionDetails": {
+                    "DBTypeName": "PostgreSQL",
+                    "host": "localhost",
+                    "port": "5432",
+                    "userName": "postgres",
+                    "dbName": "big",
+                    "Password": "qrE4JauJd0gM7CQ0IggpFA=="
+                  }
+                }
+              ],
+              "RepositoryCredentials": {
+                "UserName": "Condensator",
+                "Password": "TeQ3BbDHIVmdMV69YLXPvbQFlkDGOBn3HJJvYNDUZIKJ0DiCwBbpQjdzQvIUoADq"
+              }
+            }
+          ]
         }
       ],
       "DatabasesStaticDataObjects": null
