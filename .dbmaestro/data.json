@@ -2622,6 +2622,12 @@
               "UniqueIndex": "PRIMARY",
               "schema": "",
               "name": "category"
+            },
+            {
+              "type": "TABLE",
+              "UniqueIndex": "PRIMARY",
+              "schema": "",
+              "name": "rental"
             }
           ]
         },
