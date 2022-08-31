@@ -2863,6 +2863,18 @@
               "name": "RENTAL"
             }
           ]
+        },
+        {
+          "DatabaseId": "9ae1864e-4f87-40fc-b680-03c1b858d9d3",
+          "DatabaseAliasName": "HR",
+          "StaticDataObjects": [
+            {
+              "type": "TABLE",
+              "UniqueIndex": "DEPT_ID_PK",
+              "schema": "",
+              "name": "DEPARTMENTS"
+            }
+          ]
         }
       ]
     }
