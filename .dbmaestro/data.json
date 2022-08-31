@@ -2802,6 +2802,12 @@
               "UniqueIndex": "PK_FILM",
               "schema": "",
               "name": "FILM"
+            },
+            {
+              "type": "TABLE",
+              "UniqueIndex": "PK_RENTAL",
+              "schema": "",
+              "name": "RENTAL"
             }
           ]
         }
