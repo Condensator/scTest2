@@ -2873,6 +2873,12 @@
               "UniqueIndex": "DEPT_ID_PK",
               "schema": "",
               "name": "DEPARTMENTS"
+            },
+            {
+              "type": "TABLE",
+              "UniqueIndex": "REG_ID_PK",
+              "schema": "",
+              "name": "REGIONS"
             }
           ]
         }
