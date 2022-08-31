@@ -2784,6 +2784,12 @@
               "UniqueIndex": "PK_COUNTRY",
               "schema": "",
               "name": "COUNTRY"
+            },
+            {
+              "type": "TABLE",
+              "UniqueIndex": "PK_ACTOR",
+              "schema": "",
+              "name": "ACTOR"
             }
           ]
         }
