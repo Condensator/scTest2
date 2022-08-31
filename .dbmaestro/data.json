@@ -2879,6 +2879,12 @@
               "UniqueIndex": "REG_ID_PK",
               "schema": "",
               "name": "REGIONS"
+            },
+            {
+              "type": "TABLE",
+              "UniqueIndex": "COUNTRY_C_ID_PK",
+              "schema": "",
+              "name": "COUNTRIES"
             }
           ]
         }
