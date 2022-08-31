@@ -2790,6 +2790,12 @@
               "UniqueIndex": "PK_ACTOR",
               "schema": "",
               "name": "ACTOR"
+            },
+            {
+              "type": "TABLE",
+              "UniqueIndex": "PK_PAYMENT",
+              "schema": "",
+              "name": "PAYMENT"
             }
           ]
         }
