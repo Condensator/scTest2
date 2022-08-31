@@ -2711,7 +2711,20 @@
           ]
         }
       ],
-      "DatabasesStaticDataObjects": null
+      "DatabasesStaticDataObjects": [
+        {
+          "DatabaseId": "138f8b98-5537-46f6-96a0-c0e9f0a0adf8",
+          "DatabaseAliasName": "Smalldb",
+          "StaticDataObjects": [
+            {
+              "type": "TABLE",
+              "UniqueIndex": "rental_pkey",
+              "schema": "public",
+              "name": "rental"
+            }
+          ]
+        }
+      ]
     },
     {
       "GlobalData": {
