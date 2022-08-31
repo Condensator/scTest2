@@ -2774,7 +2774,20 @@
           ]
         }
       ],
-      "DatabasesStaticDataObjects": null
+      "DatabasesStaticDataObjects": [
+        {
+          "DatabaseId": "229c8de9-77b2-43df-a0ac-5dc0b2fcaf0f",
+          "DatabaseAliasName": "SD",
+          "StaticDataObjects": [
+            {
+              "type": "TABLE",
+              "UniqueIndex": "PK_COUNTRY",
+              "schema": "",
+              "name": "COUNTRY"
+            }
+          ]
+        }
+      ]
     }
   ],
   "GlobalConfigurations": {
