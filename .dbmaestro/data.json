@@ -2712,7 +2712,26 @@
         "ProjectId": "82475ee8-d29a-4432-8044-a38f68f63276",
         "ProjectName": "Oraclesd",
         "DBTypeName": "Oracle",
-        "Environments": null,
+        "Environments": [
+          {
+            "EnvironmentId": "2f7fe019-a908-478f-8982-641143995915",
+            "EnvironmentName": "Dev_Env_1",
+            "EnvironmentType": "DEV",
+            "Databases": [
+              {
+                "DatabaseId": "229c8de9-77b2-43df-a0ac-5dc0b2fcaf0f",
+                "DatabaseAliasName": "SD",
+                "DatabaseConnectionDetails": null,
+                "RepositoryDetails": {
+                  "$type": "DOP.SourceControl.ExternalSourceControl.Git.Models.GitRepositoryDetails, DOP.SourceControl.ExternalSourceControl.Git",
+                  "RemoteRepositoryURL": "http://localhost/Bonobo.Git.Server/oraclesd.git",
+                  "RemoteBranchName": "master",
+                  "LocalBranchName": "master"
+                }
+              }
+            ]
+          }
+        ],
         "SourceControlPathType": 0,
         "Configuration": {
           "BuildMigrationScriptAutomatically": true,
@@ -2728,7 +2747,31 @@
       "UserData": [
         {
           "UserName": "jsmith19870",
-          "DatabasesData": []
+          "DatabasesData": [
+            {
+              "DatabaseId": "229c8de9-77b2-43df-a0ac-5dc0b2fcaf0f",
+              "DatabaseAliasName": "SD",
+              "DatabaseConnectionDetails": null,
+              "BranchesDatabaseConnectionDetails": [
+                {
+                  "BranchName": "master",
+                  "DatabaseConnectionDetails": {
+                    "DBTypeName": "Oracle",
+                    "host": "localhost",
+                    "port": "1521",
+                    "identifierType": "SERVICE_NAME",
+                    "identifier": "orclpdb",
+                    "userName": "SD",
+                    "Password": "qrE4JauJd0gM7CQ0IggpFA=="
+                  }
+                }
+              ],
+              "RepositoryCredentials": {
+                "UserName": "jsmith19870",
+                "Password": "+d8N89r3z9mgG4lfBVTFrHB/XXmYmWX/a0+BWBS5uPbCUzOsMKWpXY5qvGZbMD8n"
+              }
+            }
+          ]
         }
       ],
       "DatabasesStaticDataObjects": null
