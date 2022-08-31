@@ -2796,6 +2796,12 @@
               "UniqueIndex": "PK_PAYMENT",
               "schema": "",
               "name": "PAYMENT"
+            },
+            {
+              "type": "TABLE",
+              "UniqueIndex": "PK_FILM",
+              "schema": "",
+              "name": "FILM"
             }
           ]
         }
