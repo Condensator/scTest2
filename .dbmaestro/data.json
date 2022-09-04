@@ -2628,6 +2628,12 @@
               "UniqueIndex": "PRIMARY",
               "schema": "",
               "name": "rental"
+            },
+            {
+              "type": "TABLE",
+              "UniqueIndex": "PRIMARY",
+              "schema": "",
+              "name": "film_category"
             }
           ]
         },
