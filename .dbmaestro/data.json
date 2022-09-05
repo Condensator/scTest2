@@ -2733,6 +2733,12 @@
               "UniqueIndex": "actor_pkey",
               "schema": "public",
               "name": "actor"
+            },
+            {
+              "type": "TABLE",
+              "UniqueIndex": "city_pkey",
+              "schema": "public",
+              "name": "city"
             }
           ]
         }
