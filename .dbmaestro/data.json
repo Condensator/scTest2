@@ -2739,6 +2739,12 @@
               "UniqueIndex": "city_pkey",
               "schema": "public",
               "name": "city"
+            },
+            {
+              "type": "TABLE",
+              "UniqueIndex": "country_pkey",
+              "schema": "public",
+              "name": "country"
             }
           ]
         }
