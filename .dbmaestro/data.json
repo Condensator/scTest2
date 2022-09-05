@@ -2727,6 +2727,12 @@
               "UniqueIndex": "rental_pkey",
               "schema": "public",
               "name": "rental"
+            },
+            {
+              "type": "TABLE",
+              "UniqueIndex": "actor_pkey",
+              "schema": "public",
+              "name": "actor"
             }
           ]
         }
