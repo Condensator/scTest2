@@ -2919,7 +2919,26 @@
         "ProjectId": "02f977ba-05f1-48cb-9ab9-597835779f54",
         "ProjectName": "SqlServerSD2",
         "DBTypeName": "SQL Server",
-        "Environments": null,
+        "Environments": [
+          {
+            "EnvironmentId": "cc0ffd6e-bf90-4f5c-930b-bad91de17d21",
+            "EnvironmentName": "Dev_Env_1",
+            "EnvironmentType": "DEV",
+            "Databases": [
+              {
+                "DatabaseId": "51d44298-5706-4881-9bf5-e84fe568a772",
+                "DatabaseAliasName": "sakila",
+                "DatabaseConnectionDetails": null,
+                "RepositoryDetails": {
+                  "$type": "DOP.SourceControl.ExternalSourceControl.Git.Models.GitRepositoryDetails, DOP.SourceControl.ExternalSourceControl.Git",
+                  "RemoteRepositoryURL": "http://localhost/Bonobo.Git.Server/sqlserversd.git",
+                  "RemoteBranchName": "master",
+                  "LocalBranchName": "master"
+                }
+              }
+            ]
+          }
+        ],
         "SourceControlPathType": 0,
         "Configuration": {
           "BuildMigrationScriptAutomatically": true,
@@ -2935,7 +2954,30 @@
       "UserData": [
         {
           "UserName": "Condensator",
-          "DatabasesData": []
+          "DatabasesData": [
+            {
+              "DatabaseId": "51d44298-5706-4881-9bf5-e84fe568a772",
+              "DatabaseAliasName": "sakila",
+              "DatabaseConnectionDetails": null,
+              "BranchesDatabaseConnectionDetails": [
+                {
+                  "BranchName": "master",
+                  "DatabaseConnectionDetails": {
+                    "DBTypeName": "SQL Server",
+                    "host": "LAPTOP-FUME900I",
+                    "authType": "SqlAuthentication",
+                    "userName": "sa",
+                    "dbName": "sakila",
+                    "Password": "qrE4JauJd0gM7CQ0IggpFA=="
+                  }
+                }
+              ],
+              "RepositoryCredentials": {
+                "UserName": "Condensator",
+                "Password": "TeQ3BbDHIVmdMV69YLXPvbQFlkDGOBn3HJJvYNDUZIKJ0DiCwBbpQjdzQvIUoADq"
+              }
+            }
+          ]
         }
       ],
       "DatabasesStaticDataObjects": null
