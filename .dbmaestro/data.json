@@ -2849,6 +2849,34 @@
               }
             }
           ]
+        },
+        {
+          "UserName": "Condensator",
+          "DatabasesData": [
+            {
+              "DatabaseId": "229c8de9-77b2-43df-a0ac-5dc0b2fcaf0f",
+              "DatabaseAliasName": "SD",
+              "DatabaseConnectionDetails": null,
+              "BranchesDatabaseConnectionDetails": [
+                {
+                  "BranchName": "master",
+                  "DatabaseConnectionDetails": {
+                    "DBTypeName": "Oracle",
+                    "host": "localhost",
+                    "port": "1521",
+                    "identifierType": "SERVICE_NAME",
+                    "identifier": "orclpdb",
+                    "userName": "SD2",
+                    "Password": "qrE4JauJd0gM7CQ0IggpFA=="
+                  }
+                }
+              ],
+              "RepositoryCredentials": {
+                "UserName": "Condensator",
+                "Password": "TeQ3BbDHIVmdMV69YLXPvbQFlkDGOBn3HJJvYNDUZIKJ0DiCwBbpQjdzQvIUoADq"
+              }
+            }
+          ]
         }
       ],
       "DatabasesStaticDataObjects": [
