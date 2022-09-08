@@ -2980,7 +2980,20 @@
           ]
         }
       ],
-      "DatabasesStaticDataObjects": null
+      "DatabasesStaticDataObjects": [
+        {
+          "DatabaseId": "51d44298-5706-4881-9bf5-e84fe568a772",
+          "DatabaseAliasName": "sakila",
+          "StaticDataObjects": [
+            {
+              "type": "TABLE",
+              "UniqueIndex": "PK__country__7E8CD054D2449F31",
+              "schema": "dbo",
+              "name": "country"
+            }
+          ]
+        }
+      ]
     }
   ],
   "GlobalConfigurations": {
