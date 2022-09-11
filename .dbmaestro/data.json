@@ -2610,6 +2610,12 @@
               "UniqueIndex": "PRIMARY",
               "schema": "",
               "name": "dept"
+            },
+            {
+              "type": "TABLE",
+              "UniqueIndex": "PRIMARY",
+              "schema": "",
+              "name": "country"
             }
           ]
         },
