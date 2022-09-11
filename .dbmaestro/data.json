@@ -2604,7 +2604,14 @@
         {
           "DatabaseId": "7d69993f-00ab-427f-bb04-8594479f729c",
           "DatabaseAliasName": "sctest3",
-          "StaticDataObjects": []
+          "StaticDataObjects": [
+            {
+              "type": "TABLE",
+              "UniqueIndex": "PRIMARY",
+              "schema": "",
+              "name": "dept"
+            }
+          ]
         },
         {
           "DatabaseId": "498cedac-fc9c-481e-a7bb-0ba7efb5802d",
