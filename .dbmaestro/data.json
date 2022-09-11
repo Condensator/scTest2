@@ -2604,44 +2604,7 @@
         {
           "DatabaseId": "7d69993f-00ab-427f-bb04-8594479f729c",
           "DatabaseAliasName": "sctest3",
-          "StaticDataObjects": [
-            {
-              "type": "TABLE",
-              "UniqueIndex": "PRIMARY",
-              "schema": "",
-              "name": "country"
-            },
-            {
-              "type": "TABLE",
-              "UniqueIndex": "PRIMARY",
-              "schema": "",
-              "name": "city"
-            },
-            {
-              "type": "TABLE",
-              "UniqueIndex": "PRIMARY",
-              "schema": "",
-              "name": "category"
-            },
-            {
-              "type": "TABLE",
-              "UniqueIndex": "PRIMARY",
-              "schema": "",
-              "name": "rental"
-            },
-            {
-              "type": "TABLE",
-              "UniqueIndex": "PRIMARY",
-              "schema": "",
-              "name": "film_category"
-            },
-            {
-              "type": "TABLE",
-              "UniqueIndex": "PRIMARY",
-              "schema": "",
-              "name": "dept"
-            }
-          ]
+          "StaticDataObjects": []
         },
         {
           "DatabaseId": "498cedac-fc9c-481e-a7bb-0ba7efb5802d",
