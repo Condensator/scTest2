@@ -2997,12 +2997,6 @@
           "StaticDataObjects": [
             {
               "type": "TABLE",
-              "UniqueIndex": "TABLE1_PK",
-              "schema": "",
-              "name": "TABLE1"
-            },
-            {
-              "type": "TABLE",
               "UniqueIndex": "TABLE8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA_UK1",
               "schema": "",
               "name": "TABLE8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
