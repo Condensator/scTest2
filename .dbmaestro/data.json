@@ -2994,20 +2994,7 @@
         {
           "DatabaseId": "1267822a-87fb-4c0b-85fb-fa84f0a8e523",
           "DatabaseAliasName": "TEST1409",
-          "StaticDataObjects": [
-            {
-              "type": "TABLE",
-              "UniqueIndex": "TABLE8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA_UK1",
-              "schema": "",
-              "name": "TABLE8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
-            },
-            {
-              "type": "TABLE",
-              "UniqueIndex": "TABLE10_PK",
-              "schema": "",
-              "name": "TABLE10"
-            }
-          ]
+          "StaticDataObjects": []
         }
       ]
     },
