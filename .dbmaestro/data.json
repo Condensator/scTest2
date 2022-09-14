@@ -3000,6 +3000,12 @@
               "UniqueIndex": "TABLE8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA_UK1",
               "schema": "",
               "name": "TABLE8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+            },
+            {
+              "type": "TABLE",
+              "UniqueIndex": "TABLE9_PK",
+              "schema": "",
+              "name": "TABLE9"
             }
           ]
         }
