@@ -3003,9 +3003,9 @@
             },
             {
               "type": "TABLE",
-              "UniqueIndex": "TABLE9_PK",
+              "UniqueIndex": "TABLE10_PK",
               "schema": "",
-              "name": "TABLE9"
+              "name": "TABLE10"
             }
           ]
         }
