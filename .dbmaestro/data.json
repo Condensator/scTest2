@@ -3018,6 +3018,12 @@
               "UniqueIndex": "TABLE11_PK",
               "schema": "",
               "name": "TABLE11"
+            },
+            {
+              "type": "TABLE",
+              "UniqueIndex": "TABLE4_UK1",
+              "schema": "",
+              "name": "TABLE4"
             }
           ]
         }
