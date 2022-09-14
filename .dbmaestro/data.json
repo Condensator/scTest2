@@ -3006,12 +3006,6 @@
               "UniqueIndex": "TABLE2_PK",
               "schema": "",
               "name": "TABLE2"
-            },
-            {
-              "type": "TABLE",
-              "UniqueIndex": "TABLE8_PK",
-              "schema": "",
-              "name": "TABLE8"
             }
           ]
         }
