@@ -3189,6 +3189,18 @@
               "type": "TABLE"
             }
           ]
+        },
+        {
+          "DatabaseId": "c4f1743d-7b40-47e6-a6d9-5e460b796838",
+          "DatabaseAliasName": "SD1509",
+          "StaticDataObjects": [
+            {
+              "UniqueIndex": "PK_Table_1",
+              "schema": "dbo",
+              "name": "Table_1",
+              "type": "Table"
+            }
+          ]
         }
       ]
     }
