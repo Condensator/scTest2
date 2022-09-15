@@ -2618,16 +2618,16 @@
           "DatabaseAliasName": "sctest3",
           "StaticDataObjects": [
             {
-              "type": "TABLE",
               "UniqueIndex": "PRIMARY",
               "schema": "",
-              "name": "dept"
+              "name": "dept",
+              "type": "TABLE"
             },
             {
-              "type": "TABLE",
               "UniqueIndex": "PRIMARY",
               "schema": "",
-              "name": "country"
+              "name": "country",
+              "type": "TABLE"
             }
           ]
         },
@@ -2636,10 +2636,10 @@
           "DatabaseAliasName": "sctest4",
           "StaticDataObjects": [
             {
-              "type": "TABLE",
               "UniqueIndex": "PRIMARY",
               "schema": "",
-              "name": "country"
+              "name": "country",
+              "type": "TABLE"
             }
           ]
         }
@@ -2717,28 +2717,28 @@
           "DatabaseAliasName": "Smalldb",
           "StaticDataObjects": [
             {
-              "type": "TABLE",
               "UniqueIndex": "rental_pkey",
               "schema": "public",
-              "name": "rental"
+              "name": "rental",
+              "type": "TABLE"
             },
             {
-              "type": "TABLE",
               "UniqueIndex": "actor_pkey",
               "schema": "public",
-              "name": "actor"
+              "name": "actor",
+              "type": "TABLE"
             },
             {
-              "type": "TABLE",
               "UniqueIndex": "city_pkey",
               "schema": "public",
-              "name": "city"
+              "name": "city",
+              "type": "TABLE"
             },
             {
-              "type": "TABLE",
               "UniqueIndex": "country_pkey",
               "schema": "public",
-              "name": "country"
+              "name": "country",
+              "type": "TABLE"
             }
           ]
         }
@@ -2936,34 +2936,34 @@
           "DatabaseAliasName": "SD",
           "StaticDataObjects": [
             {
-              "type": "TABLE",
               "UniqueIndex": "PK_COUNTRY",
               "schema": "",
-              "name": "COUNTRY"
+              "name": "COUNTRY",
+              "type": "TABLE"
             },
             {
-              "type": "TABLE",
               "UniqueIndex": "PK_ACTOR",
               "schema": "",
-              "name": "ACTOR"
+              "name": "ACTOR",
+              "type": "TABLE"
             },
             {
-              "type": "TABLE",
               "UniqueIndex": "PK_PAYMENT",
               "schema": "",
-              "name": "PAYMENT"
+              "name": "PAYMENT",
+              "type": "TABLE"
             },
             {
-              "type": "TABLE",
               "UniqueIndex": "PK_FILM",
               "schema": "",
-              "name": "FILM"
+              "name": "FILM",
+              "type": "TABLE"
             },
             {
-              "type": "TABLE",
               "UniqueIndex": "PK_RENTAL",
               "schema": "",
-              "name": "RENTAL"
+              "name": "RENTAL",
+              "type": "TABLE"
             }
           ]
         },
@@ -2972,22 +2972,22 @@
           "DatabaseAliasName": "HR",
           "StaticDataObjects": [
             {
-              "type": "TABLE",
               "UniqueIndex": "DEPT_ID_PK",
               "schema": "",
-              "name": "DEPARTMENTS"
+              "name": "DEPARTMENTS",
+              "type": "TABLE"
             },
             {
-              "type": "TABLE",
               "UniqueIndex": "REG_ID_PK",
               "schema": "",
-              "name": "REGIONS"
+              "name": "REGIONS",
+              "type": "TABLE"
             },
             {
-              "type": "TABLE",
               "UniqueIndex": "COUNTRY_C_ID_PK",
               "schema": "",
-              "name": "COUNTRIES"
+              "name": "COUNTRIES",
+              "type": "TABLE"
             }
           ]
         },
@@ -2996,28 +2996,28 @@
           "DatabaseAliasName": "TEST1409",
           "StaticDataObjects": [
             {
-              "type": "TABLE",
               "UniqueIndex": "TABLE1_PK",
               "schema": "",
-              "name": "TABLE1"
+              "name": "TABLE1",
+              "type": "TABLE"
             },
             {
-              "type": "TABLE",
               "UniqueIndex": "TABLE2_PK",
               "schema": "",
-              "name": "TABLE2"
+              "name": "TABLE2",
+              "type": "TABLE"
             },
             {
-              "type": "TABLE",
               "UniqueIndex": "TABLE3_UK1",
               "schema": "",
-              "name": "TABLE3"
+              "name": "TABLE3",
+              "type": "TABLE"
             },
             {
-              "type": "TABLE",
               "UniqueIndex": "TABLE4_UK1",
               "schema": "",
-              "name": "TABLE4"
+              "name": "TABLE4",
+              "type": "TABLE"
             }
           ]
         }
@@ -3041,6 +3041,17 @@
                 "RepositoryDetails": {
                   "$type": "DOP.SourceControl.ExternalSourceControl.Git.Models.GitRepositoryDetails, DOP.SourceControl.ExternalSourceControl.Git",
                   "RemoteRepositoryURL": "http://localhost/Bonobo.Git.Server/sqlserversd.git",
+                  "RemoteBranchName": "master",
+                  "LocalBranchName": "master"
+                }
+              },
+              {
+                "DatabaseId": "c4f1743d-7b40-47e6-a6d9-5e460b796838",
+                "DatabaseAliasName": "SD1509",
+                "DatabaseConnectionDetails": null,
+                "RepositoryDetails": {
+                  "$type": "DOP.SourceControl.ExternalSourceControl.Git.Models.GitRepositoryDetails, DOP.SourceControl.ExternalSourceControl.Git",
+                  "RemoteRepositoryURL": "http://localhost/Bonobo.Git.Server/MSSQLSD1509.git",
                   "RemoteBranchName": "master",
                   "LocalBranchName": "master"
                 }
@@ -3112,6 +3123,28 @@
                 "UserName": "jsmith19870",
                 "Password": "+d8N89r3z9mgG4lfBVTFrHB/XXmYmWX/a0+BWBS5uPbCUzOsMKWpXY5qvGZbMD8n"
               }
+            },
+            {
+              "DatabaseId": "c4f1743d-7b40-47e6-a6d9-5e460b796838",
+              "DatabaseAliasName": "SD1509",
+              "DatabaseConnectionDetails": null,
+              "BranchesDatabaseConnectionDetails": [
+                {
+                  "BranchName": "master",
+                  "DatabaseConnectionDetails": {
+                    "DBTypeName": "SQL Server",
+                    "host": "LAPTOP-FUME900I",
+                    "authType": "SqlAuthentication",
+                    "userName": "sa",
+                    "dbName": "SC1509U2",
+                    "Password": "qrE4JauJd0gM7CQ0IggpFA=="
+                  }
+                }
+              ],
+              "RepositoryCredentials": {
+                "UserName": "jsmith19870",
+                "Password": "+d8N89r3z9mgG4lfBVTFrHB/XXmYmWX/a0+BWBS5uPbCUzOsMKWpXY5qvGZbMD8n"
+              }
             }
           ]
         }
@@ -3122,16 +3155,16 @@
           "DatabaseAliasName": "sakila",
           "StaticDataObjects": [
             {
-              "type": "TABLE",
               "UniqueIndex": "PK__country__7E8CD054D2449F31",
               "schema": "dbo",
-              "name": "country"
+              "name": "country",
+              "type": "TABLE"
             },
             {
-              "type": "TABLE",
               "UniqueIndex": "PK_Table_1",
               "schema": "dbo",
-              "name": "Table_1"
+              "name": "Table_1",
+              "type": "TABLE"
             }
           ]
         }
