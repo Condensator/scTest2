@@ -3211,12 +3211,6 @@
               "schema": "dbo",
               "name": "allcolumntypes",
               "type": "Table"
-            },
-            {
-              "UniqueIndex": "IX_Table11",
-              "schema": "dbo",
-              "name": "Table11",
-              "type": "Table"
             }
           ]
         }
