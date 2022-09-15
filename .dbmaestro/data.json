@@ -3199,6 +3199,12 @@
               "schema": "dbo",
               "name": "Table_2",
               "type": "Table"
+            },
+            {
+              "UniqueIndex": "IX_Table_3",
+              "schema": "dbo",
+              "name": "Table_3",
+              "type": "Table"
             }
           ]
         }
