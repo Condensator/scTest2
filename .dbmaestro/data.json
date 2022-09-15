@@ -3195,9 +3195,9 @@
           "DatabaseAliasName": "SD1509",
           "StaticDataObjects": [
             {
-              "UniqueIndex": "PK_Table_1",
+              "UniqueIndex": "PK_Table_2",
               "schema": "dbo",
-              "name": "Table_1",
+              "name": "Table_2",
               "type": "Table"
             }
           ]
