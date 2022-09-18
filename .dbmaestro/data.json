@@ -3207,12 +3207,6 @@
               "type": "Table"
             },
             {
-              "UniqueIndex": "IX_Table_7",
-              "schema": "dbo",
-              "name": "Table_7",
-              "type": "Table"
-            },
-            {
               "UniqueIndex": "PK_allcolumntypes",
               "schema": "dbo",
               "name": "allcolumntypes",
