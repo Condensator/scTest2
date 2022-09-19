@@ -3175,7 +3175,26 @@
         {
           "DatabaseId": "51d44298-5706-4881-9bf5-e84fe568a772",
           "DatabaseAliasName": "sakila",
-          "StaticDataObjects": []
+          "StaticDataObjects": [
+            {
+              "UniqueIndex": "PK__country__7E8CD054D2449F31",
+              "schema": "dbo",
+              "name": "country",
+              "type": "Table"
+            },
+            {
+              "UniqueIndex": "PK__film_cat__69C38A33FDDDCE29",
+              "schema": "dbo",
+              "name": "film_category",
+              "type": "Table"
+            },
+            {
+              "UniqueIndex": "PK__customer__CD65CB84448F4B1F",
+              "schema": "dbo",
+              "name": "customer",
+              "type": "Table"
+            }
+          ]
         },
         {
           "DatabaseId": "c4f1743d-7b40-47e6-a6d9-5e460b796838",
