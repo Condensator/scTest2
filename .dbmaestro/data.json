@@ -3175,20 +3175,7 @@
         {
           "DatabaseId": "51d44298-5706-4881-9bf5-e84fe568a772",
           "DatabaseAliasName": "sakila",
-          "StaticDataObjects": [
-            {
-              "UniqueIndex": "PK__country__7E8CD054D2449F31",
-              "schema": "dbo",
-              "name": "country",
-              "type": "TABLE"
-            },
-            {
-              "UniqueIndex": "PK_Table_1",
-              "schema": "dbo",
-              "name": "Table_1",
-              "type": "TABLE"
-            }
-          ]
+          "StaticDataObjects": []
         },
         {
           "DatabaseId": "c4f1743d-7b40-47e6-a6d9-5e460b796838",
