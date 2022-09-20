@@ -3146,6 +3146,12 @@
               "schema": "dbo",
               "name": "allcolumntypes",
               "type": "Table"
+            },
+            {
+              "UniqueIndex": "IX_Bug220273",
+              "schema": "dbo",
+              "name": "Bug220273",
+              "type": "Table"
             }
           ]
         }
