@@ -92,8 +92,7 @@
             }
           ]
         }
-      ],
-      "DatabasesStaticDataObjects": null
+      ]
     },
     {
       "GlobalData": {
@@ -187,8 +186,7 @@
             }
           ]
         }
-      ],
-      "DatabasesStaticDataObjects": null
+      ]
     },
     {
       "GlobalData": {
@@ -282,8 +280,7 @@
             }
           ]
         }
-      ],
-      "DatabasesStaticDataObjects": null
+      ]
     },
     {
       "GlobalData": {
@@ -372,8 +369,7 @@
             }
           ]
         }
-      ],
-      "DatabasesStaticDataObjects": null
+      ]
     },
     {
       "GlobalData": {
@@ -467,8 +463,7 @@
             }
           ]
         }
-      ],
-      "DatabasesStaticDataObjects": null
+      ]
     },
     {
       "GlobalData": {
@@ -536,8 +531,7 @@
             }
           ]
         }
-      ],
-      "DatabasesStaticDataObjects": null
+      ]
     },
     {
       "GlobalData": {
@@ -642,8 +636,7 @@
             }
           ]
         }
-      ],
-      "DatabasesStaticDataObjects": null
+      ]
     },
     {
       "GlobalData": {
@@ -936,8 +929,7 @@
             }
           ]
         }
-      ],
-      "DatabasesStaticDataObjects": null
+      ]
     },
     {
       "GlobalData": {
@@ -1033,8 +1025,7 @@
             }
           ]
         }
-      ],
-      "DatabasesStaticDataObjects": null
+      ]
     },
     {
       "GlobalData": {
@@ -1214,8 +1205,7 @@
             }
           ]
         }
-      ],
-      "DatabasesStaticDataObjects": null
+      ]
     },
     {
       "GlobalData": {
@@ -1431,8 +1421,7 @@
             }
           ]
         }
-      ],
-      "DatabasesStaticDataObjects": null
+      ]
     },
     {
       "GlobalData": {
@@ -1864,8 +1853,7 @@
             }
           ]
         }
-      ],
-      "DatabasesStaticDataObjects": null
+      ]
     },
     {
       "GlobalData": {
@@ -1961,8 +1949,7 @@
             }
           ]
         }
-      ],
-      "DatabasesStaticDataObjects": null
+      ]
     },
     {
       "GlobalData": {
@@ -2095,8 +2082,7 @@
             }
           ]
         }
-      ],
-      "DatabasesStaticDataObjects": null
+      ]
     },
     {
       "GlobalData": {
@@ -2192,8 +2178,7 @@
             }
           ]
         }
-      ],
-      "DatabasesStaticDataObjects": null
+      ]
     },
     {
       "GlobalData": {
@@ -2261,8 +2246,7 @@
             }
           ]
         }
-      ],
-      "DatabasesStaticDataObjects": null
+      ]
     },
     {
       "GlobalData": {
@@ -2330,8 +2314,7 @@
             }
           ]
         }
-      ],
-      "DatabasesStaticDataObjects": null
+      ]
     },
     {
       "GlobalData": {
@@ -2399,8 +2382,7 @@
             }
           ]
         }
-      ],
-      "DatabasesStaticDataObjects": null
+      ]
     },
     {
       "GlobalData": {
@@ -2468,8 +2450,7 @@
             }
           ]
         }
-      ],
-      "DatabasesStaticDataObjects": null
+      ]
     },
     {
       "GlobalData": {
@@ -2611,38 +2592,6 @@
             }
           ]
         }
-      ],
-      "DatabasesStaticDataObjects": [
-        {
-          "DatabaseId": "7d69993f-00ab-427f-bb04-8594479f729c",
-          "DatabaseAliasName": "sctest3",
-          "StaticDataObjects": [
-            {
-              "UniqueIndex": "PRIMARY",
-              "schema": "",
-              "name": "dept",
-              "type": "TABLE"
-            },
-            {
-              "UniqueIndex": "PRIMARY",
-              "schema": "",
-              "name": "country",
-              "type": "TABLE"
-            }
-          ]
-        },
-        {
-          "DatabaseId": "498cedac-fc9c-481e-a7bb-0ba7efb5802d",
-          "DatabaseAliasName": "sctest4",
-          "StaticDataObjects": [
-            {
-              "UniqueIndex": "PRIMARY",
-              "schema": "",
-              "name": "country",
-              "type": "TABLE"
-            }
-          ]
-        }
       ]
     },
     {
@@ -2663,6 +2612,17 @@
                 "RepositoryDetails": {
                   "$type": "DOP.SourceControl.ExternalSourceControl.Git.Models.GitRepositoryDetails, DOP.SourceControl.ExternalSourceControl.Git",
                   "RemoteRepositoryURL": "http://localhost/Bonobo.Git.Server/pg.git",
+                  "RemoteBranchName": "master",
+                  "LocalBranchName": "master"
+                }
+              },
+              {
+                "DatabaseId": "bd73b2a3-4e9e-4d6d-b9fe-3442420a4b77",
+                "DatabaseAliasName": "funcNameTests",
+                "DatabaseConnectionDetails": null,
+                "RepositoryDetails": {
+                  "$type": "DOP.SourceControl.ExternalSourceControl.Git.Models.GitRepositoryDetails, DOP.SourceControl.ExternalSourceControl.Git",
+                  "RemoteRepositoryURL": "http://localhost/Bonobo.Git.Server/screpo223.git",
                   "RemoteBranchName": "master",
                   "LocalBranchName": "master"
                 }
@@ -2707,38 +2667,28 @@
                 "UserName": "Condensator",
                 "Password": "TeQ3BbDHIVmdMV69YLXPvbQFlkDGOBn3HJJvYNDUZIKJ0DiCwBbpQjdzQvIUoADq"
               }
-            }
-          ]
-        }
-      ],
-      "DatabasesStaticDataObjects": [
-        {
-          "DatabaseId": "138f8b98-5537-46f6-96a0-c0e9f0a0adf8",
-          "DatabaseAliasName": "Smalldb",
-          "StaticDataObjects": [
-            {
-              "UniqueIndex": "rental_pkey",
-              "schema": "public",
-              "name": "rental",
-              "type": "TABLE"
             },
             {
-              "UniqueIndex": "actor_pkey",
-              "schema": "public",
-              "name": "actor",
-              "type": "TABLE"
-            },
-            {
-              "UniqueIndex": "city_pkey",
-              "schema": "public",
-              "name": "city",
-              "type": "TABLE"
-            },
-            {
-              "UniqueIndex": "country_pkey",
-              "schema": "public",
-              "name": "country",
-              "type": "TABLE"
+              "DatabaseId": "bd73b2a3-4e9e-4d6d-b9fe-3442420a4b77",
+              "DatabaseAliasName": "funcNameTests",
+              "DatabaseConnectionDetails": null,
+              "BranchesDatabaseConnectionDetails": [
+                {
+                  "BranchName": "master",
+                  "DatabaseConnectionDetails": {
+                    "DBTypeName": "PostgreSQL",
+                    "host": "localhost",
+                    "port": "5431",
+                    "userName": "postgres",
+                    "dbName": "longnames",
+                    "Password": "qrE4JauJd0gM7CQ0IggpFA=="
+                  }
+                }
+              ],
+              "RepositoryCredentials": {
+                "UserName": "Condensator",
+                "Password": "TeQ3BbDHIVmdMV69YLXPvbQFlkDGOBn3HJJvYNDUZIKJ0DiCwBbpQjdzQvIUoADq"
+              }
             }
           ]
         }
@@ -2929,98 +2879,6 @@
             }
           ]
         }
-      ],
-      "DatabasesStaticDataObjects": [
-        {
-          "DatabaseId": "229c8de9-77b2-43df-a0ac-5dc0b2fcaf0f",
-          "DatabaseAliasName": "SD",
-          "StaticDataObjects": [
-            {
-              "UniqueIndex": "PK_COUNTRY",
-              "schema": "",
-              "name": "COUNTRY",
-              "type": "TABLE"
-            },
-            {
-              "UniqueIndex": "PK_ACTOR",
-              "schema": "",
-              "name": "ACTOR",
-              "type": "TABLE"
-            },
-            {
-              "UniqueIndex": "PK_PAYMENT",
-              "schema": "",
-              "name": "PAYMENT",
-              "type": "TABLE"
-            },
-            {
-              "UniqueIndex": "PK_FILM",
-              "schema": "",
-              "name": "FILM",
-              "type": "TABLE"
-            },
-            {
-              "UniqueIndex": "PK_RENTAL",
-              "schema": "",
-              "name": "RENTAL",
-              "type": "TABLE"
-            }
-          ]
-        },
-        {
-          "DatabaseId": "9ae1864e-4f87-40fc-b680-03c1b858d9d3",
-          "DatabaseAliasName": "HR",
-          "StaticDataObjects": [
-            {
-              "UniqueIndex": "DEPT_ID_PK",
-              "schema": "",
-              "name": "DEPARTMENTS",
-              "type": "TABLE"
-            },
-            {
-              "UniqueIndex": "REG_ID_PK",
-              "schema": "",
-              "name": "REGIONS",
-              "type": "TABLE"
-            },
-            {
-              "UniqueIndex": "COUNTRY_C_ID_PK",
-              "schema": "",
-              "name": "COUNTRIES",
-              "type": "TABLE"
-            }
-          ]
-        },
-        {
-          "DatabaseId": "1267822a-87fb-4c0b-85fb-fa84f0a8e523",
-          "DatabaseAliasName": "TEST1409",
-          "StaticDataObjects": [
-            {
-              "UniqueIndex": "TABLE1_PK",
-              "schema": "",
-              "name": "TABLE1",
-              "type": "TABLE"
-            },
-            {
-              "UniqueIndex": "TABLE2_PK",
-              "schema": "",
-              "name": "TABLE2",
-              "type": "TABLE"
-            },
-            {
-              "UniqueIndex": "TABLE3_UK1",
-              "schema": "",
-              "name": "TABLE3",
-              "type": "TABLE"
-            },
-            {
-              "UniqueIndex": "TABLE4_UK1",
-              "schema": "",
-              "name": "TABLE4",
-              "type": "TABLE"
-            }
-          ]
-        }
       ]
     },
     {
@@ -3167,56 +3025,6 @@
                 "UserName": "jsmith19870",
                 "Password": "+d8N89r3z9mgG4lfBVTFrHB/XXmYmWX/a0+BWBS5uPbCUzOsMKWpXY5qvGZbMD8n"
               }
-            }
-          ]
-        }
-      ],
-      "DatabasesStaticDataObjects": [
-        {
-          "DatabaseId": "51d44298-5706-4881-9bf5-e84fe568a772",
-          "DatabaseAliasName": "sakila",
-          "StaticDataObjects": [
-            {
-              "UniqueIndex": "PK__country__7E8CD054D2449F31",
-              "schema": "dbo",
-              "name": "country",
-              "type": "Table"
-            },
-            {
-              "UniqueIndex": "PK__film_cat__69C38A33FDDDCE29",
-              "schema": "dbo",
-              "name": "film_category",
-              "type": "Table"
-            },
-            {
-              "UniqueIndex": "PK__customer__CD65CB84448F4B1F",
-              "schema": "dbo",
-              "name": "customer",
-              "type": "Table"
-            }
-          ]
-        },
-        {
-          "DatabaseId": "c4f1743d-7b40-47e6-a6d9-5e460b796838",
-          "DatabaseAliasName": "SD1509",
-          "StaticDataObjects": [
-            {
-              "UniqueIndex": "PK_Table_2",
-              "schema": "dbo",
-              "name": "Table_2",
-              "type": "Table"
-            },
-            {
-              "UniqueIndex": "IX_Table_3",
-              "schema": "dbo",
-              "name": "Table_3",
-              "type": "Table"
-            },
-            {
-              "UniqueIndex": "PK_allcolumntypes",
-              "schema": "dbo",
-              "name": "allcolumntypes",
-              "type": "Table"
             }
           ]
         }
