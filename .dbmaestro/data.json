@@ -3055,7 +3055,14 @@
         {
           "DatabaseId": "c4f1743d-7b40-47e6-a6d9-5e460b796838",
           "DatabaseAliasName": "SD1509",
-          "StaticDataObjects": []
+          "StaticDataObjects": [
+            {
+              "UniqueIndex": "PK_allcolumntypes",
+              "schema": "dbo",
+              "name": "allcolumntypes",
+              "type": "Table"
+            }
+          ]
         }
       ]
     }
