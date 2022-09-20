@@ -2783,6 +2783,18 @@
               "schema": "public",
               "name": "\"Table2\"",
               "type": "TABLE"
+            },
+            {
+              "UniqueIndex": "Table1_pkey",
+              "schema": "public",
+              "name": "\"Table1\"",
+              "type": "TABLE"
+            },
+            {
+              "UniqueIndex": "uniq",
+              "schema": "public",
+              "name": "\"Table3\"",
+              "type": "TABLE"
             }
           ]
         }
