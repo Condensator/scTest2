@@ -2777,7 +2777,14 @@
         {
           "DatabaseId": "b7c2ad15-3e4f-47dd-88ec-235180bab642",
           "DatabaseAliasName": "SC2009",
-          "StaticDataObjects": []
+          "StaticDataObjects": [
+            {
+              "UniqueIndex": "Table1_pkey",
+              "schema": "public",
+              "name": "\"Table1\"",
+              "type": "TABLE"
+            }
+          ]
         }
       ]
     },
