@@ -2783,6 +2783,12 @@
               "schema": "public",
               "name": "alltypes4",
               "type": "TABLE"
+            },
+            {
+              "UniqueIndex": "Table1_pkey",
+              "schema": "public",
+              "name": "\"Table1\"",
+              "type": "TABLE"
             }
           ]
         }
