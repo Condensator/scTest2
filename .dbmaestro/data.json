@@ -2807,12 +2807,6 @@
               "schema": "public",
               "name": "tbl1",
               "type": "TABLE"
-            },
-            {
-              "UniqueIndex": "alltypes_pkey",
-              "schema": "public",
-              "name": "alltypes",
-              "type": "TABLE"
             }
           ]
         }
