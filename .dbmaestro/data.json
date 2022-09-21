@@ -2797,12 +2797,6 @@
               "type": "TABLE"
             },
             {
-              "UniqueIndex": "aaaaaaaa",
-              "schema": "public",
-              "name": "\"Table5\"",
-              "type": "TABLE"
-            },
-            {
               "UniqueIndex": "tbl1_pkey",
               "schema": "public",
               "name": "tbl1",
