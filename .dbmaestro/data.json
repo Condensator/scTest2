@@ -2801,6 +2801,12 @@
               "schema": "public",
               "name": "\"Table5\"",
               "type": "TABLE"
+            },
+            {
+              "UniqueIndex": "aaaaaaaaaa",
+              "schema": "public",
+              "name": "zxc",
+              "type": "TABLE"
             }
           ]
         }
