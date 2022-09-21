@@ -2795,6 +2795,12 @@
               "schema": "public",
               "name": "\"Table3\"",
               "type": "TABLE"
+            },
+            {
+              "UniqueIndex": "aaaaaaaa",
+              "schema": "public",
+              "name": "\"Table5\"",
+              "type": "TABLE"
             }
           ]
         }
