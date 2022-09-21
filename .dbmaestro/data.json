@@ -2779,36 +2779,6 @@
           "DatabaseAliasName": "SC2009",
           "StaticDataObjects": [
             {
-              "UniqueIndex": "Table1_pkey",
-              "schema": "public",
-              "name": "\"Table1\"",
-              "type": "TABLE"
-            },
-            {
-              "UniqueIndex": "Table2_pkey",
-              "schema": "public",
-              "name": "\"Table2\"",
-              "type": "TABLE"
-            },
-            {
-              "UniqueIndex": "uniq",
-              "schema": "public",
-              "name": "\"Table3\"",
-              "type": "TABLE"
-            },
-            {
-              "UniqueIndex": "tbl1_pkey",
-              "schema": "public",
-              "name": "tbl1",
-              "type": "TABLE"
-            },
-            {
-              "UniqueIndex": "alltypes3_pkey",
-              "schema": "public",
-              "name": "alltypes3",
-              "type": "TABLE"
-            },
-            {
               "UniqueIndex": "alltypes4_pkey",
               "schema": "public",
               "name": "alltypes4",
