@@ -2779,12 +2779,6 @@
           "DatabaseAliasName": "SC2009",
           "StaticDataObjects": [
             {
-              "UniqueIndex": "alltypes4_pkey",
-              "schema": "public",
-              "name": "alltypes4",
-              "type": "TABLE"
-            },
-            {
               "UniqueIndex": "Table1_pkey",
               "schema": "public",
               "name": "\"Table1\"",
