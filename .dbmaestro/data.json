@@ -2789,6 +2789,12 @@
               "schema": "public",
               "name": "alltypes4",
               "type": "TABLE"
+            },
+            {
+              "UniqueIndex": "alltypes_pkey",
+              "schema": "public",
+              "name": "alltypes11",
+              "type": "TABLE"
             }
           ]
         }
