@@ -2732,7 +2732,7 @@
                     "DBTypeName": "PostgreSQL",
                     "host": "localhost",
                     "port": "5432",
-                    "userName": "postgres",
+                    "userName": "tester",
                     "dbName": "SC2009U1",
                     "Password": "qrE4JauJd0gM7CQ0IggpFA=="
                   }
