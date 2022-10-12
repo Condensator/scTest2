@@ -3165,6 +3165,18 @@
               "schema": "dbo",
               "name": "Bug220273",
               "type": "Table"
+            },
+            {
+              "UniqueIndex": "PK_Deps1",
+              "schema": "dbo",
+              "name": "Deps1",
+              "type": "Table"
+            },
+            {
+              "UniqueIndex": "PK_Deps2",
+              "schema": "dbo",
+              "name": "Deps2",
+              "type": "Table"
             }
           ]
         }
