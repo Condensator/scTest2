@@ -3177,6 +3177,12 @@
               "schema": "dbo",
               "name": "Deps2",
               "type": "Table"
+            },
+            {
+              "UniqueIndex": "PK_dtoffset",
+              "schema": "dbo",
+              "name": "dtoffset",
+              "type": "Table"
             }
           ]
         }
