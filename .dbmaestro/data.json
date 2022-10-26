@@ -3055,6 +3055,17 @@
                   "RemoteBranchName": "master",
                   "LocalBranchName": "master"
                 }
+              },
+              {
+                "DatabaseId": "b60471de-0529-4554-9a3c-883bb27f43c0",
+                "DatabaseAliasName": "skla1",
+                "DatabaseConnectionDetails": null,
+                "RepositoryDetails": {
+                  "$type": "DOP.SourceControl.ExternalSourceControl.Git.Models.GitRepositoryDetails, DOP.SourceControl.ExternalSourceControl.Git",
+                  "RemoteRepositoryURL": "http://localhost/Bonobo.Git.Server/skla1.git",
+                  "RemoteBranchName": "master",
+                  "LocalBranchName": "master"
+                }
               }
             ]
           }
@@ -3110,6 +3121,28 @@
                     "authType": "SqlAuthentication",
                     "userName": "sa",
                     "dbName": "SC1509U1",
+                    "Password": "qrE4JauJd0gM7CQ0IggpFA=="
+                  }
+                }
+              ],
+              "RepositoryCredentials": {
+                "UserName": "Condensator",
+                "Password": "TeQ3BbDHIVmdMV69YLXPvbQFlkDGOBn3HJJvYNDUZIKJ0DiCwBbpQjdzQvIUoADq"
+              }
+            },
+            {
+              "DatabaseId": "b60471de-0529-4554-9a3c-883bb27f43c0",
+              "DatabaseAliasName": "skla1",
+              "DatabaseConnectionDetails": null,
+              "BranchesDatabaseConnectionDetails": [
+                {
+                  "BranchName": "master",
+                  "DatabaseConnectionDetails": {
+                    "DBTypeName": "SQL Server",
+                    "host": "LAPTOP-FUME900I",
+                    "authType": "SqlAuthentication",
+                    "userName": "sa",
+                    "dbName": "skla1",
                     "Password": "qrE4JauJd0gM7CQ0IggpFA=="
                   }
                 }
