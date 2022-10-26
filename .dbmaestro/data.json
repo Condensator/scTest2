@@ -3272,6 +3272,12 @@
               "schema": "dbo",
               "name": "country",
               "type": "Table"
+            },
+            {
+              "UniqueIndex": "PK__category__D54EE9B5CB654C13",
+              "schema": "dbo",
+              "name": "category",
+              "type": "Table"
             }
           ]
         }
