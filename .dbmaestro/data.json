@@ -3266,20 +3266,7 @@
         {
           "DatabaseId": "b60471de-0529-4554-9a3c-883bb27f43c0",
           "DatabaseAliasName": "skla1",
-          "StaticDataObjects": [
-            {
-              "UniqueIndex": "PK__country__7E8CD054C70B2949",
-              "schema": "dbo",
-              "name": "country",
-              "type": "Table"
-            },
-            {
-              "UniqueIndex": "PK__category__D54EE9B5CB654C13",
-              "schema": "dbo",
-              "name": "category",
-              "type": "Table"
-            }
-          ]
+          "StaticDataObjects": []
         }
       ]
     }
